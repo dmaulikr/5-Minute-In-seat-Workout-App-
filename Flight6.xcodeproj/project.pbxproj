@@ -18,6 +18,12 @@
 		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; };
 		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; };
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
+		0CCEB5941D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
+		0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
+		0CCEB5971D166D7E008A18E8 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */; };
+		0CCEB5981D166D7E008A18E8 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */; };
+		0CCEB59A1D166DB7008A18E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5991D166DB7008A18E8 /* MainViewController.swift */; };
+		0CCEB59B1D166DB7008A18E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5991D166DB7008A18E8 /* MainViewController.swift */; };
 		274B2B0893FF3729F4592969 /* Pods_Flight6_Flight6Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D730E63C4B7AF2E730F9E882 /* Pods_Flight6_Flight6Tests.framework */; };
 		902220AF22F639C7E8D19480 /* Pods_Flight6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0391C05176166EDA5AB9A2C /* Pods_Flight6.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +53,9 @@
 		0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = "Pods/../build/Debug-iphoneos/MZTimerLabel/MZTimerLabel.framework"; sourceTree = "<group>"; };
 		0C0C774F1D166BF2001C9F64 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDatasource.swift; sourceTree = "<group>"; };
+		0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		0CCEB5991D166DB7008A18E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3A93321CC67853D4D9793EDC /* Pods-Flight6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flight6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flight6/Pods-Flight6.debug.xcconfig"; sourceTree = "<group>"; };
 		73269C86D1D12F58396D3770 /* Pods-Flight6-Flight6Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flight6-Flight6Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flight6-Flight6Tests/Pods-Flight6-Flight6Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D3F75E433C260C5BC39F7C0 /* Pods-Flight6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flight6.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flight6/Pods-Flight6.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +125,9 @@
 				0C0C772C1D1663A3001C9F64 /* Main.storyboard */,
 				0C0C77481D1669C8001C9F64 /* WorkoutCell.swift */,
 				0C0C774F1D166BF2001C9F64 /* Workout.swift */,
+				0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */,
+				0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */,
+				0CCEB5991D166DB7008A18E8 /* MainViewController.swift */,
 				0C0C772F1D1663A3001C9F64 /* Images.xcassets */,
 				0C0C77311D1663A3001C9F64 /* LaunchScreen.xib */,
 				0C0C77261D1663A3001C9F64 /* Supporting Files */,
@@ -358,10 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCEB59A1D166DB7008A18E8 /* MainViewController.swift in Sources */,
+				0CCEB5971D166D7E008A18E8 /* WorkoutViewController.swift in Sources */,
 				0C0C77491D1669C8001C9F64 /* WorkoutCell.swift in Sources */,
 				0C0C772B1D1663A3001C9F64 /* ViewController.swift in Sources */,
 				0C0C77291D1663A3001C9F64 /* AppDelegate.swift in Sources */,
 				0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */,
+				0CCEB5941D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,8 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCEB5981D166D7E008A18E8 /* WorkoutViewController.swift in Sources */,
 				0C0C773F1D1663A3001C9F64 /* Flight6Tests.swift in Sources */,
+				0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */,
 				0C0C774A1D1669C8001C9F64 /* WorkoutCell.swift in Sources */,
+				0CCEB59B1D166DB7008A18E8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
