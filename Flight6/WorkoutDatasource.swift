@@ -41,6 +41,7 @@ class WorkoutDataSource{
         
         let wk4 = Workout(title: "Neck Rolls", workoutText: "Roll your neck clockwise for 15 secs and switch to counter-clockwise for the next 15 secs.", color: UIColor(hue: 0.5361, saturation: 0.76, brightness: 0.4, alpha: 1.0) /* #185567 */)
         workouts.append(wk4)
+        workouts2.append(wk4)
         
         let wk5 = Workout(title: "Step-ups onto a chair", videoId: "kM2FfDIwsao", workoutText: "To do a step-up, position your chair in front of your body. Stand with your feet about hip-width apart, arms at your sides. Step up onto the seat with one foot, pressing down while bringing your other foot up next to it. ", color:  UIColor(hue: 0.6194, saturation: 0.5, brightness: 0.36, alpha: 1.0) /* #2f3c5e */)
         workouts.append(wk5)
