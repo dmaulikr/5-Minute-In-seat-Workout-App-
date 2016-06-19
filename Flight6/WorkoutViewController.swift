@@ -23,6 +23,22 @@ class WorkoutViewController: UIViewController {
     
     
     @IBAction func pauseResume(sender: UIButton) {
+        
+        let propertyToCheck = sender.currentTitle!
+        
+                if sender.currentTitle == "Pause" {
+                    // do something
+                    pauseButton.setTitle("Resume", forState: .Normal)
+                    timerLabel.pause()
+                }
+        
+                else if (sender.currentTitle == "Resume") {
+                    // do something else
+                    pauseButton.setTitle("Pause", forState: .Normal)
+                    timerLabel.start()
+                }
+
+        
     }
     
     

@@ -9,7 +9,6 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    @IBOutlet weak var button: UIButton!
-
+    
     @IBOutlet weak var tableView: UITableView!
 }
