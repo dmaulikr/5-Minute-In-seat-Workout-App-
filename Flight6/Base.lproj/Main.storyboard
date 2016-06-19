@@ -62,7 +62,7 @@
         <!--Main View Controller-->
         <scene sceneID="elb-H1-ve0">
             <objects>
-                <viewController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" id="1Hz-KP-xjB" customClass="MainViewController" customModule="Flight4" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" id="1Hz-KP-xjB" customClass="MainViewController" customModule="Flight6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sUI-Pf-PS5"/>
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
@@ -111,7 +111,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell alpha="0.15000000596046448" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="Cell" rowHeight="76" id="XXn-0J-He3" customClass="WorkoutCell" customModule="Flight4">
+                                    <tableViewCell alpha="0.15000000596046448" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="Cell" rowHeight="76" id="XXn-0J-He3" customClass="WorkoutCell" customModule="Flight6">
                                         <rect key="frame" x="0.0" y="22" width="320" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XXn-0J-He3" id="ZAh-Kb-H7o">
@@ -158,8 +158,8 @@
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
-                                            <outlet property="countLabel" destination="Evs-uJ-tpk" id="6hU-bp-QVh"/>
-                                            <outlet property="textCellLabel" destination="reF-wM-zg3" id="jqZ-XZ-re0"/>
+                                            <outlet property="countLabel" destination="Evs-uJ-tpk" id="OoH-FM-fzF"/>
+                                            <outlet property="textCellLabel" destination="reF-wM-zg3" id="IVk-UG-vj6"/>
                                             <segue destination="5Ik-DC-Vgh" kind="show" identifier="detailview" id="yYD-jt-MNt"/>
                                         </connections>
                                     </tableViewCell>
@@ -179,7 +179,7 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
-                        <outlet property="tableView" destination="9G5-vN-swJ" id="rQI-Up-CyU"/>
+                        <outlet property="tableView" destination="9G5-vN-swJ" id="WqN-TR-k0k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NqZ-HY-kWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -262,7 +262,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="pauseButton:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="eqh-qL-HFy"/>
                                     <action selector="pauseResume:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="rB7-Lr-uCt"/>
                                 </connections>
                             </button>

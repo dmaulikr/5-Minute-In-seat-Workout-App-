@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C026CF41D1675E900850D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C772C1D1663A3001C9F64 /* Main.storyboard */; };
+		0C026CF51D1676CB00850D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C77281D1663A3001C9F64 /* AppDelegate.swift */; };
 		0C0C77291D1663A3001C9F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C77281D1663A3001C9F64 /* AppDelegate.swift */; };
 		0C0C772B1D1663A3001C9F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C772A1D1663A3001C9F64 /* ViewController.swift */; };
 		0C0C772E1D1663A3001C9F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C772C1D1663A3001C9F64 /* Main.storyboard */; };
@@ -268,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C026CF41D1675E900850D9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +392,7 @@
 				0C0C773F1D1663A3001C9F64 /* Flight6Tests.swift in Sources */,
 				0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */,
 				0C0C774A1D1669C8001C9F64 /* WorkoutCell.swift in Sources */,
+				0C026CF51D1676CB00850D9A /* AppDelegate.swift in Sources */,
 				0CCEB59B1D166DB7008A18E8 /* MainViewController.swift in Sources */,
 				0CCEB59C1D1670BE008A18E8 /* Workout.swift in Sources */,
 			);
