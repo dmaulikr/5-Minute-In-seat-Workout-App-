@@ -41,6 +41,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         let restTime = 11.0
         let workoutTime = 30.0
         var index = 5;
+        var count = 0;
         let dataSource = WorkoutDataSource()
         let borderAlpha : CGFloat = 0.7
         let cornerRadius : CGFloat = 5.0
@@ -57,8 +58,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                     timerLabel.start()
             workouts = dataSource.getWorkOuts()
             workoutLabel.text = workouts[0].title
-          self.navigationController?.navigationBar.barTintColor = workouts[0].color
-            self.navigationController?.navigationBar.backgroundColor = workouts[0].color
+            
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
@@ -81,6 +81,12 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     }
     
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
+        //go in progression except for after certain workouts
+        //then go to rest page
+        //parse through workout array
+        //when u hit workout[i]
+            //next up will be rest. 
+        
         
         if index % 2 == 0 {
             let wk = workouts[index / 2]
@@ -89,7 +95,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             self.view.backgroundColor = wk.color
             timerLabel.setCountDownTime(workoutTime);
             workoutLabel.text = "Rest !!"
-            self.navigationController?.navigationBar.barTintColor = wk.color
+            
         } else {
             let wk = workouts[index / 2 + 1]
             timerLabel.text = "\(restTime)"
@@ -97,7 +103,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             self.view.backgroundColor = wk.color
             timerLabel.setCountDownTime(restTime);
             workoutLabel.text = wk.title
-            self.navigationController?.navigationBar.barTintColor = wk.color
+            
         }
         
         index++;
