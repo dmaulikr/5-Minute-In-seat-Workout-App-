@@ -51,7 +51,7 @@ class WorkoutDataSource{
         workouts.append(wk6)
         workouts2.append(wk6)
         
-        let rest4 = Workout(title: "Rest", workoutText: "Take deep breaths and calm your nerves.", color:  color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
+        let rest4 = Workout(title: "Rest", workoutText: "Take deep breaths and calm your nerves.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
         workouts2.append(rest4)
         
         let wk7 = Workout(title: "Triceps dips on a chair", videoId: "0326dy_-CzM", workoutText: "Triceps dips on a chair", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
