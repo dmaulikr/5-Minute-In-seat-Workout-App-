@@ -75,11 +75,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             let gradientLayer = CAGradientLayer()
             gradientLayer.colors = gradientBackgroundColors
             gradientLayer.locations = gradientLocations
-    //
-    //        gradientLayer.frame = tableView.bounds
-    //        let backgroundView = UIView(frame: tableView.bounds)
-    //        backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
-    //        tableView.backgroundView = backgroundView
+    
+            gradientLayer.frame = tableView.bounds
+            let backgroundView = UIView(frame: tableView.bounds)
+            backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
+            tableView.backgroundView = backgroundView
         }
     
     
@@ -102,8 +102,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
                         let indexPath = tableView.indexPathForCell(cell!)
             let nvc = segue.destinationViewController as? UINavigationController
                         if let tmp = workouts[indexPath!.row] as? Workout{
-//                            let dvc = nvc?.topViewController as! DetailViewController
-//                            dvc.workout = tmp
+                            let dvc = nvc?.topViewController as! DetailViewController
+                            dvc.workout = tmp
                         }
             
         }

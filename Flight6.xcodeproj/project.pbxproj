@@ -20,6 +20,8 @@
 		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; };
 		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; };
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
+		0CA543051D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
+		0CA543061D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
 		0CCEB5941D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
 		0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
 		0CCEB5971D166D7E008A18E8 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */; };
@@ -56,6 +58,7 @@
 		0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = "Pods/../build/Debug-iphoneos/MZTimerLabel/MZTimerLabel.framework"; sourceTree = "<group>"; };
 		0C0C774F1D166BF2001C9F64 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		0CA543041D16796300A6D426 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDatasource.swift; sourceTree = "<group>"; };
 		0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		0CCEB5991D166DB7008A18E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 				0C0C77281D1663A3001C9F64 /* AppDelegate.swift */,
 				0C0C772A1D1663A3001C9F64 /* ViewController.swift */,
 				0C0C772C1D1663A3001C9F64 /* Main.storyboard */,
+				0CA543041D16796300A6D426 /* DetailViewController.swift */,
 				0C0C77481D1669C8001C9F64 /* WorkoutCell.swift */,
 				0C0C774F1D166BF2001C9F64 /* Workout.swift */,
 				0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */,
@@ -381,6 +385,7 @@
 				0C0C77291D1663A3001C9F64 /* AppDelegate.swift in Sources */,
 				0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */,
 				0CCEB5941D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */,
+				0CA543051D16796300A6D426 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +400,7 @@
 				0C026CF51D1676CB00850D9A /* AppDelegate.swift in Sources */,
 				0CCEB59B1D166DB7008A18E8 /* MainViewController.swift in Sources */,
 				0CCEB59C1D1670BE008A18E8 /* Workout.swift in Sources */,
+				0CA543061D16796300A6D426 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="top" id="erX-FW-ESB"/>
                         <viewControllerLayoutGuide type="bottom" id="VoA-Bp-Z6U"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XAr-Zb-SX3" customClass="YTPlayerView">
+                    <view key="view" contentMode="scaleToFill" id="XAr-Zb-SX3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -54,6 +54,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wdq-fH-o6C"/>
+                    <connections>
+                        <outlet property="backHome" destination="qaa-dm-fta" id="LcD-yY-tZc"/>
+                        <outlet property="detailText" destination="wne-hm-INd" id="DQE-ac-Jh2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CCK-DE-6GC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,7 +195,7 @@
         <!--Workout View Controller-->
         <scene sceneID="ZFF-lJ-Wcq">
             <objects>
-                <viewController id="jTJ-ue-7Fw" customClass="WorkoutViewController" customModule="Flight4" sceneMemberID="viewController">
+                <viewController id="jTJ-ue-7Fw" customClass="WorkoutViewController" customModule="Flight6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cvp-KN-Dit"/>
                         <viewControllerLayoutGuide type="bottom" id="tGN-Rh-Umz"/>
