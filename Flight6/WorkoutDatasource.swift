@@ -26,6 +26,7 @@ class WorkoutDataSource{
         workouts2.append(rest1)
         let wk2 = Workout(title: "Leg Lifts", workoutText: "Lift your legs up without touching the ground.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
         workouts.append(wk2)
+        workouts2.append(wk2)
         
         let wk3 = Workout(title: "Push Ups", videoId: "Eh00_rniF8E", workoutText: "An exercise in which a person lies facing the floor and, keeping their back straight, raises their body by pressing down on their hands.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.46, alpha: 1.0) /* #007777 */)
         workouts.append(wk3)
