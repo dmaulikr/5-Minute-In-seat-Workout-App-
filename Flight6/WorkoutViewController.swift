@@ -81,11 +81,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     }
     
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
-        //go in progression except for after certain workouts
-        //then go to rest page
-        //parse through workout array
-        //when u hit workout[i]
-            //next up will be rest. 
+        //go through workout2 array
+        //set time in workout2 array
         
         
         if index % 2 == 0 {
