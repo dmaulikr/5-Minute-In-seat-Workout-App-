@@ -57,8 +57,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                     timerLabel.start()
             workouts = dataSource.getWorkOuts()
             currentWorkout.text = workouts[0].title
-//            self.navigationController?.navigationBar.barTintColor = workouts[0].color
-//            self.navigationController?.navigationBar.backgroundColor = workouts[0].color
+          self.navigationController?.navigationBar.barTintColor = workouts[0].color
+            self.navigationController?.navigationBar.backgroundColor = workouts[0].color
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
@@ -90,6 +90,18 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 timerLabel.setCountDownTime(workoutTime);
                 nextWorkout.text = "Rest !!"
                // self.navigationController?.navigationBar.barTintColor = wk.color
+                
+                UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+                // Sets shadow (line below the bar) to a blank image
+                UINavigationBar.appearance().shadowImage = UIImage()
+                // Sets the translucent background color
+                UINavigationBar.appearance().backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+                // Set translucent. (Default value is already true, so this can be removed if desired.)
+                UINavigationBar.appearance().translucent = true
+                
+
+                
+                
             } else {
                 let wk = workouts[index / 2 + 1]
                 timerLabel.text = "\(restTime)"
@@ -98,6 +110,15 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 timerLabel.setCountDownTime(restTime);
                 nextWorkout.text = wk.title
                // self.navigationController?.navigationBar.barTintColor = wk.color
+                UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+                // Sets shadow (line below the bar) to a blank image
+                UINavigationBar.appearance().shadowImage = UIImage()
+                // Sets the translucent background color
+                UINavigationBar.appearance().backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+                // Set translucent. (Default value is already true, so this can be removed if desired.)
+                UINavigationBar.appearance().translucent = true
+                
+
             }
             
             index++;

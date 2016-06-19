@@ -25,10 +25,6 @@ class DetailViewController: UIViewController {
         self.detailText.text = workout.workoutText
         self.title = workout.title
         
-//        self.navigationController!.navigationBar.translucent = true
-//       //self.navigationController?.navigationBar.barTintColor = UIColor.clearColor()
-//        self.navigationController?.navigationBar.backgroundColor = UIColor.clearColor()
-//        //self.navigationController?.navigationBar.
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
         
@@ -36,8 +32,10 @@ class DetailViewController: UIViewController {
         backHome.layer.borderWidth = 1.0
         backHome.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         backHome.layer.cornerRadius = cornerRadius
-        //super.viewWillAppear(true)
+        
         self.viewWillAppear(true)
+                
+
         
     }
     
@@ -52,6 +50,15 @@ class DetailViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    override func viewWillAppear(animated: Bool) {
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+        // Sets shadow (line below the bar) to a blank image
+        UINavigationBar.appearance().shadowImage = UIImage()
+        // Sets the translucent background color
+        UINavigationBar.appearance().backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+        // Set translucent. (Default value is already true, so this can be removed if desired.)
+        UINavigationBar.appearance().translucent = true
+    }
     
     /*
     // MARK: - Navigation

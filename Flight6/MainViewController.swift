@@ -51,7 +51,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         
         setTableViewBackgroundGradient(color7, bottomColor: color1)
-         self.navigationController?.navigationBar.backgroundColor = UIColor.flatNavyBlueColorDark()
+         //self.navigationController?.navigationBar.backgroundColor = UIColor.flatNavyBlueColorDark()
         
         
         
