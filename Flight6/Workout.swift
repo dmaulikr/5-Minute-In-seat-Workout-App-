@@ -6,8 +6,22 @@
 //  Copyright (c) 2016 Hashma Shahid. All rights reserved.
 //
 
-import Cocoa
+import Foundation
+import UIKit
 
-class Workout: UIViewController {
-
+class Workout {
+    var videoId: String!
+    var title: String!
+    var workoutText: String!
+    var color: UIColor!
+    
+    init(title: String, videoId: String, workoutText: String, color: UIColor){
+        self.videoId = videoId
+        self.title = title
+        self.workoutText = workoutText
+        self.color = color
+    }
+    
+    
+    
 }
