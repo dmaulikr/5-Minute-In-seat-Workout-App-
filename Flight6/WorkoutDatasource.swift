@@ -12,13 +12,18 @@ import UIKit
 
 class WorkoutDataSource{
     var workouts:[Workout]
+    var workouts2:[Workout]
     
     init() {
         workouts = []
-        let wk1 = Workout(title: "Jumping Jacks", videoId: "UpH7rm0cYbM", workoutText: "A calisthenic jump done from a standing position with legs together and arms at the sides to a position with the legs apart and the arms over the head.",color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0) /* #005555 */)
+        workouts2 = []
+        let wk1 = Workout(title: "Warm up", workoutText: "1. Circle your feet. 2. Circle your wrists. 3. Raise you arms up and down.",color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0) /* #005555 */)
         workouts.append(wk1)
+        workouts2.append(wk1)
         
-        let wk2 = Workout(title: "Wall Sits", videoId: "y-wV4Venusw", workoutText: "A wall sit, also known as a Roman Chair, is an exercise done to strengthen the quadriceps muscles. It is characterized by the two right angles formed by the body, one at the hips and one at the knees.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
+        
+        let rest1 = Workout(title: "Rest",
+        let wk2 = Workout(title: "Wall Sits", workoutText: "A wall sit, also known as a Roman Chair, is an exercise done to strengthen the quadriceps muscles. It is characterized by the two right angles formed by the body, one at the hips and one at the knees.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
         workouts.append(wk2)
         
         let wk3 = Workout(title: "Push Ups", videoId: "Eh00_rniF8E", workoutText: "An exercise in which a person lies facing the floor and, keeping their back straight, raises their body by pressing down on their hands.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.46, alpha: 1.0) /* #007777 */)
@@ -38,8 +43,14 @@ class WorkoutDataSource{
         
     }
     
+    
+    
     func getWorkOuts() -> [Workout]{
         return workouts
+    }
+    
+    func getWorkOuts2() -> [Workout]{
+        return workouts2
     }
     
     
