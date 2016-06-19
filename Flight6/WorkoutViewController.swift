@@ -39,13 +39,15 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 }
     }
         let restTime = 11.0
-        let workoutTime = 30.0
-        var index = 5;
+        let workoutTimeLong = 30.0
+        let workoutTimeShort = 60.0
+        var index = 0;
         var count = 0;
         let dataSource = WorkoutDataSource()
         let borderAlpha : CGFloat = 0.7
         let cornerRadius : CGFloat = 5.0
         var workouts: [Workout]!
+        var workouts2: [Workout]!
     
     
         override func viewDidLoad() {
@@ -57,7 +59,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                     timerLabel.resetTimerAfterFinish = true
                     timerLabel.start()
             workouts = dataSource.getWorkOuts()
-            workoutLabel.text = workouts[0].title
+            workouts2 = dataSource.getWorkOuts2()
+            workoutLabel.text = workouts2[0].title
             
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
@@ -83,25 +86,37 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
         //go through workout2 array
         //set time in workout2 array
+        let workoutRoutine = workouts2
         
+    
+//            let wk = workouts2[count]
+//            timerLabel.text = "\(workoutTime)"
+//            mainLabel.text = wk.title
+//            self.view.backgroundColor = wk.color
+//            timerLabel.setCountDownTime(workoutTime);
+//            workoutLabel.text = "Rest !!"
+//            
+//        
+//        count++;
+        //count = 0;
         
-        if index % 2 == 0 {
-            let wk = workouts[index / 2]
+       // if index % 2 == 0 {
+            let wk = workouts2[index]
             timerLabel.text = "\(workoutTime)"
             mainLabel.text = wk.title
             self.view.backgroundColor = wk.color
             timerLabel.setCountDownTime(workoutTime);
-            workoutLabel.text = "Rest !!"
-            
-        } else {
-            let wk = workouts[index / 2 + 1]
-            timerLabel.text = "\(restTime)"
-            mainLabel.text = "Rest !!"
-            self.view.backgroundColor = wk.color
-            timerLabel.setCountDownTime(restTime);
-            workoutLabel.text = wk.title
-            
-        }
+            workoutLabel.text = workouts2[index+1].title
+            println(index)
+       // } else {
+//            let wk = workouts[index / 2 + 1]
+//            timerLabel.text = "\(restTime)"
+//            mainLabel.text = "Rest !!"
+//            self.view.backgroundColor = wk.color
+//            timerLabel.setCountDownTime(restTime);
+//            workoutLabel.text = wk.title
+//            println(index)
+       // }
         
         index++;
         if !((index / 2) > workouts.count) {
