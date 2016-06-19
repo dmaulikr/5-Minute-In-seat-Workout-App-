@@ -22,6 +22,15 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
     
     
+    @IBAction func stopMZTimerLabel(sender: UIButton) {
+        if sender.currentTitle == "Back to Homepage" {
+            
+            timerLabel.pause()
+        }
+        
+        
+        
+    }
     @IBAction func pauseResume(sender: UIButton) {
         
         let propertyToCheck = sender.currentTitle!
@@ -102,10 +111,24 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
        // if index % 2 == 0 {
             let wk = workouts2[index]
-            timerLabel.text = "\(workoutTime)"
+        
             mainLabel.text = wk.title
             self.view.backgroundColor = wk.color
-            timerLabel.setCountDownTime(workoutTime);
+        if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
+            wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister"  {
+                timerLabel.setCountDownTime(workoutTimeShort);
+                timerLabel.text = "\(workoutTimeShort)"
+        }
+        else if wk.title == "Rest" {
+            timerLabel.setCountDownTime(restTime);
+            timerLabel.text = "\(restTime)"
+        }
+        
+        else {
+            timerLabel.setCountDownTime(workoutTimeShort);
+            timerLabel.text = "\(workoutTimeLong)"
+        }
+        
             workoutLabel.text = workouts2[index+1].title
             println(index)
        // } else {

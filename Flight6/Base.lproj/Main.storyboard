@@ -254,6 +254,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="stopMZTimerLabel:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="HT9-sH-OA2"/>
                                     <segue destination="1Hz-KP-xjB" kind="show" id="aoQ-ct-G8n"/>
                                 </connections>
                             </button>
