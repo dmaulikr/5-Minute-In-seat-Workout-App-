@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Set translucent. (Default value is already true, so this can be removed if desired.)
         UINavigationBar.appearance().translucent = true
         UINavigationBar.appearance().titleTextAttributes = ([NSForegroundColorAttributeName: UIColor.whiteColor()])
-        
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         let win:UIWindow = UIApplication.sharedApplication().delegate!.window!!
         win.backgroundColor = UIColor.flatNavyBlueColorDark()
         
