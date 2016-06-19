@@ -10,7 +10,7 @@
         <!--Detail View Controller-->
         <scene sceneID="AF4-oA-SYe">
             <objects>
-                <viewController id="mQA-AF-peB" customClass="DetailViewController" customModule="Flight4Tests" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mQA-AF-peB" customClass="DetailViewController" customModule="Flight6" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="erX-FW-ESB"/>
                         <viewControllerLayoutGuide type="bottom" id="VoA-Bp-Z6U"/>
@@ -54,10 +54,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wdq-fH-o6C"/>
-                    <connections>
-                        <outlet property="backHome" destination="qaa-dm-fta" id="FHw-7V-9Wy"/>
-                        <outlet property="detailText" destination="wne-hm-INd" id="u7r-rV-b8p"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CCK-DE-6GC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,11 +178,6 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <connections>
-                        <outlet property="button" destination="5BD-LH-CID" id="FKX-Dr-OQY"/>
-                        <outlet property="buttonView" destination="erz-F6-vGk" id="3ob-T6-cJt"/>
-                        <outlet property="tableView" destination="9G5-vN-swJ" id="rep-ZD-KXT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NqZ-HY-kWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -293,14 +284,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GvC-gJ-cIh"/>
-                    <connections>
-                        <outlet property="backHome" destination="NRw-BG-j9b" id="uMs-DX-LXc"/>
-                        <outlet property="mainLabel" destination="XCc-9Y-N1a" id="BMc-60-Yl2"/>
-                        <outlet property="nextUp" destination="jk1-d7-tWM" id="9c3-l4-XJA"/>
-                        <outlet property="pauseB" destination="fIB-Ah-gEl" id="IHE-mt-Ohh"/>
-                        <outlet property="timerLabel" destination="Lc5-K7-IYL" id="5Qk-fh-zfW"/>
-                        <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="53w-Lo-gHO"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnd-Yf-3r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
