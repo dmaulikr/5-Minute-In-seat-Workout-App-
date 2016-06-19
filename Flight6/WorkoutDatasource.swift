@@ -58,6 +58,9 @@ class WorkoutDataSource{
         workouts.append(wk7)
         workouts2.append(wk7)
         
+        let rest5 = Workout(title: "Rest", workoutText: "Take deep breaths and calm your nerves.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
+        workouts2.append(rest5)
+        
         let wk8 = Workout(title: "Trunk Twister", workoutText: "Twist yourself.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
         workouts.append(wk8)
         workouts2.append(wk8)
