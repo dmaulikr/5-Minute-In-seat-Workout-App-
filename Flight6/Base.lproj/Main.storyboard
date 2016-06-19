@@ -179,6 +179,8 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
+                        <outlet property="button" destination="5BD-LH-CID" id="Dn1-Hb-58W"/>
+                        <outlet property="buttonView" destination="erz-F6-vGk" id="xc4-0z-flh"/>
                         <outlet property="tableView" destination="9G5-vN-swJ" id="WqN-TR-k0k"/>
                     </connections>
                 </viewController>
