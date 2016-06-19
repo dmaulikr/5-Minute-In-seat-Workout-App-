@@ -6,10 +6,30 @@
 //  Copyright (c) 2016 Hashma Shahid. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import MZTimerLabel
 
-class WorkoutViewController {
+class WorkoutViewController: UIViewController {
 
     @IBOutlet weak var backHome: UIButton!
+    @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var timerLabel: MZTimerLabel!
+    
+    @IBOutlet weak var currentWorkout: UILabel!
+    
+    @IBOutlet weak var nextUp: UILabel!
+    
+    @IBOutlet weak var nextWorkout: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

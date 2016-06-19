@@ -290,6 +290,10 @@
                     <navigationItem key="navigationItem" id="GvC-gJ-cIh"/>
                     <connections>
                         <outlet property="backHome" destination="NRw-BG-j9b" id="YE9-Na-DDO"/>
+                        <outlet property="currentWorkout" destination="XCc-9Y-N1a" id="Iiu-9f-Tg4"/>
+                        <outlet property="nextUp" destination="jk1-d7-tWM" id="Sg0-6j-FEh"/>
+                        <outlet property="nextWorkout" destination="xYd-Xc-NYi" id="24A-0A-amT"/>
+                        <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
                         <outlet property="timerLabel" destination="Lc5-K7-IYL" id="vxS-b6-tjz"/>
                     </connections>
                 </viewController>
