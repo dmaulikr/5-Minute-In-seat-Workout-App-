@@ -56,6 +56,11 @@ class WorkoutDataSource{
         
         let wk7 = Workout(title: "Stand on Fists (Harder)", workoutText: "Put your hands on the handles of your seat and lift yourself.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
         workouts.append(wk7)
+        workouts2.append(wk7)
+        
+        let wk8 = Workout(title: "Trunk Twister", workoutText: "Twist yourself.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
+        workouts.append(wk8)
+        workouts2.append(wk8)
         
     }
     
