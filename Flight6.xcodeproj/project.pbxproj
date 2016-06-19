@@ -17,12 +17,13 @@
 		0C0C773F1D1663A3001C9F64 /* Flight6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C773E1D1663A3001C9F64 /* Flight6Tests.swift */; };
 		0C0C77491D1669C8001C9F64 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C77481D1669C8001C9F64 /* WorkoutCell.swift */; };
 		0C0C774A1D1669C8001C9F64 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C77481D1669C8001C9F64 /* WorkoutCell.swift */; };
-		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; };
-		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; };
+		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
 		0CA543051D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
 		0CA543061D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
-		0CCA64061D17038A001E5A1F /* KDCircularProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA64051D17038A001E5A1F /* KDCircularProgress.framework */; };
+		0CCA640B1D1704D2001E5A1F /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0CCA640D1D1704D2001E5A1F /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA640A1D1704D2001E5A1F /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0CCEB5941D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
 		0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */; };
 		0CCEB5971D166D7E008A18E8 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */; };
@@ -61,6 +62,9 @@
 		0C0C774F1D166BF2001C9F64 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		0CA543041D16796300A6D426 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0CCA64051D17038A001E5A1F /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress/KDCircularProgress.framework"; sourceTree = "<group>"; };
+		0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
+		0CCA64091D1704D2001E5A1F /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress/KDCircularProgress.framework"; sourceTree = "<group>"; };
+		0CCA640A1D1704D2001E5A1F /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = "Pods/../build/Debug-iphoneos/MZTimerLabel/MZTimerLabel.framework"; sourceTree = "<group>"; };
 		0CCEB5931D166D5E008A18E8 /* WorkoutDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDatasource.swift; sourceTree = "<group>"; };
 		0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		0CCEB5991D166DB7008A18E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCA64061D17038A001E5A1F /* KDCircularProgress.framework in Frameworks */,
 				0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */,
 				0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */,
 				902220AF22F639C7E8D19480 /* Pods_Flight6.framework in Frameworks */,
@@ -88,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCA640B1D1704D2001E5A1F /* ChameleonFramework.framework in Frameworks */,
+				0CCA640D1D1704D2001E5A1F /* MZTimerLabel.framework in Frameworks */,
 				274B2B0893FF3729F4592969 /* Pods_Flight6_Flight6Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +103,9 @@
 		08A27484E559259EFD548F6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */,
+				0CCA64091D1704D2001E5A1F /* KDCircularProgress.framework */,
+				0CCA640A1D1704D2001E5A1F /* MZTimerLabel.framework */,
 				0CCA64051D17038A001E5A1F /* KDCircularProgress.framework */,
 				0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */,
 				0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */,
@@ -563,6 +571,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KDCircularProgress",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MZTimerLabel",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -583,6 +594,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KDCircularProgress",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MZTimerLabel",
 				);
 				INFOPLIST_FILE = Flight6Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

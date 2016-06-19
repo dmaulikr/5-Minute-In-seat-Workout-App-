@@ -2,19 +2,15 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - KDCircularProgress (1.4.0)
   - MZTimerLabel (0.5.4)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon`)
-  - KDCircularProgress (from `https://github.com/kaandedeoglu/KDCircularProgress`)
   - MZTimerLabel (from `https://github.com/mineschan/MZTimerLabel`)
 
 EXTERNAL SOURCES:
   ChameleonFramework:
     :git: https://github.com/ViccAlexander/Chameleon
-  KDCircularProgress:
-    :git: https://github.com/kaandedeoglu/KDCircularProgress
   MZTimerLabel:
     :git: https://github.com/mineschan/MZTimerLabel
 
@@ -22,18 +18,14 @@ CHECKOUT OPTIONS:
   ChameleonFramework:
     :commit: 3f87b407bb84ad5e23a0ee8a2ef4023ebb62b00a
     :git: https://github.com/ViccAlexander/Chameleon
-  KDCircularProgress:
-    :commit: d96c0a95a3a3bb3779fed0a2563bd8a6a6e19f8f
-    :git: https://github.com/kaandedeoglu/KDCircularProgress
   MZTimerLabel:
     :commit: 1b55f9e552e662698a675d4cecb55a25c1c5e537
     :git: https://github.com/mineschan/MZTimerLabel
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  KDCircularProgress: f5770bbd83da909bf6cd96c2dea0b8bae45ec774
   MZTimerLabel: 842e833701e9ae519422a2c0f7175d516fcdffa6
 
-PODFILE CHECKSUM: 639711ab8bcf23b83b6d7877596adda9e35fe6ab
+PODFILE CHECKSUM: ae873d732301571ed08b0bbfde95b3c9d4099604
 
 COCOAPODS: 1.0.1

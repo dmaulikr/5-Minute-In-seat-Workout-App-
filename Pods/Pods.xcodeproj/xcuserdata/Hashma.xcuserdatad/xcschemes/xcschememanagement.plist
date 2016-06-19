@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>KDCircularProgress.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MZTimerLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E3487FE829C987D8A17A035F5E82C79</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5172ACAB7FEA22813859DC97CA0AA16F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86EFBE88224E3C13F6CBC5CC4002BE0C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9558B32FB980ED0E42BF1BD3AEC626CE</key>
+		<key>96D19C69287E78005D05B85E206CEF35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E29A23890B992C6D47D51882C1B22A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAB38ADDB0017AABDD3D57B63AAB09A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
