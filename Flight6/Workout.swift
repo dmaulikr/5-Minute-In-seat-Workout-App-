@@ -14,7 +14,7 @@ class Workout {
     var workoutText: String!
     var color: UIColor!
     
-    init(title: String, videoId: String, workoutText: String, color: UIColor){
+    init(title: String, workoutText: String, color: UIColor){
         self.title = title
         self.workoutText = workoutText
         self.color = color
