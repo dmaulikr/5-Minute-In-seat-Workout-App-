@@ -204,7 +204,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jk1-d7-tWM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Up:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jk1-d7-tWM">
                                 <rect key="frame" x="236" y="366" width="128" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="6a4-DM-Da3"/>
@@ -232,7 +232,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whatever" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-Xc-NYi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-Xc-NYi">
                                 <rect key="frame" x="190" y="430" width="221" height="69"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="221" id="0tF-z7-u0f"/>
@@ -295,11 +295,11 @@
                     <navigationItem key="navigationItem" id="GvC-gJ-cIh"/>
                     <connections>
                         <outlet property="backHome" destination="NRw-BG-j9b" id="YE9-Na-DDO"/>
-                        <outlet property="currentWorkout" destination="XCc-9Y-N1a" id="Iiu-9f-Tg4"/>
+                        <outlet property="mainLabel" destination="XCc-9Y-N1a" id="Bys-A3-cg2"/>
                         <outlet property="nextUp" destination="jk1-d7-tWM" id="Sg0-6j-FEh"/>
-                        <outlet property="nextWorkout" destination="xYd-Xc-NYi" id="24A-0A-amT"/>
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
                         <outlet property="timerLabel" destination="Lc5-K7-IYL" id="vxS-b6-tjz"/>
+                        <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnd-Yf-3r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
