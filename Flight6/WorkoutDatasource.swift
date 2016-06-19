@@ -45,6 +45,7 @@ class WorkoutDataSource{
         
         let wk5 = Workout(title: "Feet Circles", workoutText: "Circle your feet in the clockwise direction for 15 secs and switch to counter-clockwise for the next 15 secs.", color:  UIColor(hue: 0.6194, saturation: 0.5, brightness: 0.36, alpha: 1.0) /* #2f3c5e */)
         workouts.append(wk5)
+        workouts2.append(wk5)
         
         let wk6 = Workout(title: "Squats", videoId: "mGvzVjuY8SY", workoutText: "Crouch or sit with one's knees bent and one's heels close to or touching one's buttocks or the back of one's thighs.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
         workouts.append(wk6)
