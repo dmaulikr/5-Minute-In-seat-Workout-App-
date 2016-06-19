@@ -264,6 +264,7 @@
                                 </state>
                                 <connections>
                                     <action selector="pauseButton:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="eqh-qL-HFy"/>
+                                    <action selector="pauseResume:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="rB7-Lr-uCt"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -22,6 +22,8 @@ class WorkoutViewController: UIViewController {
     @IBOutlet weak var nextWorkout: UILabel!
     
     
+    @IBAction func pauseResume(sender: UIButton) {
+    }
     
     
     
