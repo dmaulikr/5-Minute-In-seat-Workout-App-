@@ -36,6 +36,9 @@ class WorkoutDataSource{
         workouts.append(wk3)
         workouts2.append(wk3)
         
+        let rest3 = Workout(title: "Rest", workoutText: "Take deep breaths and calm your nerves.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.46, alpha: 1.0) /* #007777 */)
+        workouts2.append(rest3)
+        
         let wk4 = Workout(title: "Abdominal Crunches", videoId: "2yOFvV-NSeY", workoutText: "A crunch begins with lying face up on the floor with knees bent. The movement begins by curling the shoulders towards the pelvis. The hands can be behind or beside the neck or crossed over the chest. Injury can be caused by pushing against the head or neck with hands.", color: UIColor(hue: 0.5361, saturation: 0.76, brightness: 0.4, alpha: 1.0) /* #185567 */)
         workouts.append(wk4)
         
