@@ -51,6 +51,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         
         setTableViewBackgroundGradient(color7, bottomColor: color1)
+         self.navigationController?.navigationBar.backgroundColor = UIColor.flatNavyBlueColorDark()
         
         
         
@@ -76,8 +77,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             gradientLayer.colors = gradientBackgroundColors
             gradientLayer.locations = gradientLocations
     
-            gradientLayer.frame = tableView.bounds
-            let backgroundView = UIView(frame: tableView.bounds)
+            gradientLayer.frame = view.bounds
+            let backgroundView = UIView(frame: view.bounds)
             backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
             tableView.backgroundView = backgroundView
         }

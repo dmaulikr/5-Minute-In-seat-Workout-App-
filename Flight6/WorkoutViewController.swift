@@ -57,8 +57,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                     timerLabel.start()
             workouts = dataSource.getWorkOuts()
             currentWorkout.text = workouts[0].title
-            self.navigationController?.navigationBar.barTintColor = workouts[0].color
-            self.navigationController?.navigationBar.backgroundColor = workouts[0].color
+//            self.navigationController?.navigationBar.barTintColor = workouts[0].color
+//            self.navigationController?.navigationBar.backgroundColor = workouts[0].color
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
@@ -89,7 +89,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 self.view.backgroundColor = wk.color
                 timerLabel.setCountDownTime(workoutTime);
                 nextWorkout.text = "Rest !!"
-                self.navigationController?.navigationBar.barTintColor = wk.color
+               // self.navigationController?.navigationBar.barTintColor = wk.color
             } else {
                 let wk = workouts[index / 2 + 1]
                 timerLabel.text = "\(restTime)"
@@ -97,7 +97,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 self.view.backgroundColor = wk.color
                 timerLabel.setCountDownTime(restTime);
                 nextWorkout.text = wk.title
-                self.navigationController?.navigationBar.barTintColor = wk.color
+               // self.navigationController?.navigationBar.barTintColor = wk.color
             }
             
             index++;

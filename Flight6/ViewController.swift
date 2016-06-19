@@ -17,8 +17,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         view.backgroundColor = UIColor(hue: 0.5733, saturation: 0.75, brightness: 0.68, alpha: 1.0) /* #346fae */
-        self.navigationController?.navigationBar.backgroundColor = UIColor(hue: 0.5733, saturation: 0.75, brightness: 0.68, alpha: 1.0) /* #346fae */
-        self.viewWillAppear(true)
+        self.navigationController?.navigationBar.backgroundColor = UIColor.flatNavyBlueColorDark()
+         self.navigationController?.navigationBar.barTintColor = UIColor.flatNavyBlueColorDark()
+              
         
     }
     
@@ -27,11 +28,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.backgroundColor = workout.color
-        
-    }
+    
     
     
     

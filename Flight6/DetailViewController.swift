@@ -25,13 +25,12 @@ class DetailViewController: UIViewController {
         self.detailText.text = workout.workoutText
         self.title = workout.title
         
-        
-        self.navigationController?.navigationBar.barTintColor = workout.color
-        
-        
-        
-        
+//        self.navigationController!.navigationBar.translucent = true
+//       //self.navigationController?.navigationBar.barTintColor = UIColor.clearColor()
+//        self.navigationController?.navigationBar.backgroundColor = UIColor.clearColor()
+//        //self.navigationController?.navigationBar.
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
         
         backHome.backgroundColor = UIColor.clearColor()
         backHome.layer.borderWidth = 1.0
@@ -42,11 +41,7 @@ class DetailViewController: UIViewController {
         
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.backgroundColor = workout.color
-        
-    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
