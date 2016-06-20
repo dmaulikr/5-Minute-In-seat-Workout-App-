@@ -300,7 +300,6 @@
                         <outlet property="mainLabel" destination="XCc-9Y-N1a" id="Bys-A3-cg2"/>
                         <outlet property="nextUp" destination="jk1-d7-tWM" id="Sg0-6j-FEh"/>
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
-                        <outlet property="progressTimer" destination="FRR-9z-atO" id="NW5-Bs-JaH"/>
                         <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
                     </connections>
                 </viewController>

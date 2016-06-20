@@ -63,6 +63,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
         override func viewDidLoad() {
             super.viewDidLoad()
+                    self.progressTimer.setValue(55, animateWithDuration: 1)
                     timerLabel.delegate = self
                     timerLabel.timerType = MZTimerLabelTypeTimer
                     timerLabel.setCountDownTime(10)
@@ -116,6 +117,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
             mainLabel.text = wk.title
             self.view.backgroundColor = wk.color
+        
+                
+                
+                
+                //setValue:55.f animateWithDuration:1];
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
