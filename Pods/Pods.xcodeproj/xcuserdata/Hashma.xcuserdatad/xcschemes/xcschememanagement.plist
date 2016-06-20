@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MBCircularProgressBar-MBCircularProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBCircularProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MZTimerLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96D19C69287E78005D05B85E206CEF35</key>
+		<key>860A9179BCFD9F1C616D8653DB2B4F91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FC4B2785BB68892651401B8A26A15AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAB38ADDB0017AABDD3D57B63AAB09A2</key>
+		<key>B506DBBD6652F613E0CCB1FB0D48DFD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F222C77811AD7536614DFE6EB27E62DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

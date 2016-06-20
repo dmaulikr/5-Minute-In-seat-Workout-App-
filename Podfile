@@ -5,10 +5,12 @@ target ‘Flight6’ do
  use_frameworks!
  pod ‘ChameleonFramework/Swift’, :git => 'https://github.com/ViccAlexander/Chameleon'
  pod 'MZTimerLabel’, :git => ‘https://github.com/mineschan/MZTimerLabel'
+ pod "MBCircularProgressBar”, :git => ‘https://github.com/MatiBot/MBCircularProgressBar’
 
 target ‘Flight6Tests' do
  pod ‘ChameleonFramework/Swift’, :git => 'https://github.com/ViccAlexander/Chameleon'
  pod 'MZTimerLabel’, :git => ‘https://github.com/mineschan/MZTimerLabel'
+ pod "MBCircularProgressBar”, :git => ‘https://github.com/MatiBot/MBCircularProgressBar’
 end
 
 end

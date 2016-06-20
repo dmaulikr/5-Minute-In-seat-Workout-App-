@@ -2,15 +2,19 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - MBCircularProgressBar (0.3.4)
   - MZTimerLabel (0.5.4)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon`)
+  - MBCircularProgressBar (from `https://github.com/MatiBot/MBCircularProgressBar`)
   - MZTimerLabel (from `https://github.com/mineschan/MZTimerLabel`)
 
 EXTERNAL SOURCES:
   ChameleonFramework:
     :git: https://github.com/ViccAlexander/Chameleon
+  MBCircularProgressBar:
+    :git: https://github.com/MatiBot/MBCircularProgressBar
   MZTimerLabel:
     :git: https://github.com/mineschan/MZTimerLabel
 
@@ -18,14 +22,18 @@ CHECKOUT OPTIONS:
   ChameleonFramework:
     :commit: 3f87b407bb84ad5e23a0ee8a2ef4023ebb62b00a
     :git: https://github.com/ViccAlexander/Chameleon
+  MBCircularProgressBar:
+    :commit: f2e50ebfb488b5491653d9e188289de8ce18c39b
+    :git: https://github.com/MatiBot/MBCircularProgressBar
   MZTimerLabel:
     :commit: 1b55f9e552e662698a675d4cecb55a25c1c5e537
     :git: https://github.com/mineschan/MZTimerLabel
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  MBCircularProgressBar: ff3b8e2f441214d9ee122a24ba0d4d00cc7de881
   MZTimerLabel: 842e833701e9ae519422a2c0f7175d516fcdffa6
 
-PODFILE CHECKSUM: ae873d732301571ed08b0bbfde95b3c9d4099604
+PODFILE CHECKSUM: ff8715041cb9dca80dfe9f4008baff88730f582a
 
 COCOAPODS: 1.0.1
