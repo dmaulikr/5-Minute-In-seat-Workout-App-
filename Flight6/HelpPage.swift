@@ -10,6 +10,7 @@ import UIKit
 
 class HelpPage: UIViewController {
     
+    @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
         
         
