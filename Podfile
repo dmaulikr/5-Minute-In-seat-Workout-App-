@@ -6,11 +6,13 @@ target ‘Flight6’ do
  pod ‘ChameleonFramework/Swift’, :git => 'https://github.com/ViccAlexander/Chameleon'
  pod 'MZTimerLabel’, :git => ‘https://github.com/mineschan/MZTimerLabel'
  pod "MBCircularProgressBar”, :git => ‘https://github.com/MatiBot/MBCircularProgressBar’
+ pod “JWGCircleCounter”, :git => ‘https://github.com/sametgultekin/JWGCircleCounter’
 
 target ‘Flight6Tests' do
  pod ‘ChameleonFramework/Swift’, :git => 'https://github.com/ViccAlexander/Chameleon'
  pod 'MZTimerLabel’, :git => ‘https://github.com/mineschan/MZTimerLabel'
  pod "MBCircularProgressBar”, :git => ‘https://github.com/MatiBot/MBCircularProgressBar’
+ pod “JWGCircleCounter”, :git => ‘https://github.com/sametgultekin/JWGCircleCounter’
 end
 
 end

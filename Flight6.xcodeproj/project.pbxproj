@@ -22,6 +22,9 @@
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
 		0CA543051D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
 		0CA543061D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
+		0CC1A9CB1D1863300075D58F /* JWGCircleCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1A9CA1D1863300075D58F /* JWGCircleCounter.framework */; };
+		0CC1A9CD1D1972B00075D58F /* noun_106348_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1A9CC1D1972B00075D58F /* noun_106348_cc.png */; };
+		0CC1A9CE1D1972B00075D58F /* noun_106348_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1A9CC1D1972B00075D58F /* noun_106348_cc.png */; };
 		0CCA640B1D1704D2001E5A1F /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0CCA640D1D1704D2001E5A1F /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA640A1D1704D2001E5A1F /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0CCA640F1D182159001E5A1F /* MBCircularProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCA640E1D182159001E5A1F /* MBCircularProgressBar.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -63,6 +66,8 @@
 		0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = "Pods/../build/Debug-iphoneos/MZTimerLabel/MZTimerLabel.framework"; sourceTree = "<group>"; };
 		0C0C774F1D166BF2001C9F64 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		0CA543041D16796300A6D426 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0CC1A9CA1D1863300075D58F /* JWGCircleCounter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWGCircleCounter.framework; path = "Pods/../build/Debug-iphoneos/JWGCircleCounter/JWGCircleCounter.framework"; sourceTree = "<group>"; };
+		0CC1A9CC1D1972B00075D58F /* noun_106348_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_106348_cc.png; sourceTree = "<group>"; };
 		0CCA64051D17038A001E5A1F /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress/KDCircularProgress.framework"; sourceTree = "<group>"; };
 		0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		0CCA64091D1704D2001E5A1F /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress/KDCircularProgress.framework"; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC1A9CB1D1863300075D58F /* JWGCircleCounter.framework in Frameworks */,
 				0CCA640F1D182159001E5A1F /* MBCircularProgressBar.framework in Frameworks */,
 				0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */,
 				0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */,
@@ -109,6 +115,7 @@
 		08A27484E559259EFD548F6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CC1A9CA1D1863300075D58F /* JWGCircleCounter.framework */,
 				0CCA64101D182160001E5A1F /* MBCircularProgressBar.framework */,
 				0CCA640E1D182159001E5A1F /* MBCircularProgressBar.framework */,
 				0CCA64081D1704D2001E5A1F /* ChameleonFramework.framework */,
@@ -156,6 +163,7 @@
 				0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */,
 				0CCEB5991D166DB7008A18E8 /* MainViewController.swift */,
 				0C0C772F1D1663A3001C9F64 /* Images.xcassets */,
+				0CC1A9CC1D1972B00075D58F /* noun_106348_cc.png */,
 				0C0C77311D1663A3001C9F64 /* LaunchScreen.xib */,
 				0C0C77261D1663A3001C9F64 /* Supporting Files */,
 			);
@@ -287,6 +295,7 @@
 				0C0C772E1D1663A3001C9F64 /* Main.storyboard in Resources */,
 				0C0C77331D1663A3001C9F64 /* LaunchScreen.xib in Resources */,
 				0C0C77301D1663A3001C9F64 /* Images.xcassets in Resources */,
+				0CC1A9CD1D1972B00075D58F /* noun_106348_cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C026CF41D1675E900850D9A /* Main.storyboard in Resources */,
+				0CC1A9CE1D1972B00075D58F /* noun_106348_cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +558,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MZTimerLabel",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/KDCircularProgress",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MBCircularProgressBar",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JWGCircleCounter",
 				);
 				INFOPLIST_FILE = Flight6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -566,6 +577,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MZTimerLabel",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/KDCircularProgress",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MBCircularProgressBar",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JWGCircleCounter",
 				);
 				INFOPLIST_FILE = Flight6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -9,19 +9,20 @@
 import UIKit
 import MZTimerLabel
 import MBCircularProgressBar
+import JWGCircleCounter
 
 class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
 
     @IBOutlet weak var backHome: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
-    @IBOutlet weak var timerLabel: MZTimerLabel!
     
+    
+    @IBOutlet weak var timerLabel: MZTimerLabel!
     @IBOutlet weak var workoutLabel: UILabel!
     
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var nextUp: UILabel!
-    
-    @IBOutlet weak var progressTimer: MBCircularProgressBarView!
+      @IBOutlet weak var progressTimer: JWGCircleCounter!
     
     
     @IBAction func stopMZTimerLabel(sender: UIButton) {
@@ -40,13 +41,16 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 if sender.currentTitle == "Pause" {
                     // do something
                     pauseButton.setTitle("Resume", forState: .Normal)
-                    timerLabel.pause()
+                    //timerLabel.pause()
+                    progressTimer.stop()
                 }
         
                 else if (sender.currentTitle == "Resume") {
                     // do something else
                     pauseButton.setTitle("Pause", forState: .Normal)
-                    timerLabel.start()
+                    //timerLabel.start()
+                    
+                    progressTimer.startWithSeconds(50)
                 }
     }
         let restTime = 11.0
@@ -60,10 +64,12 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         var workouts: [Workout]!
         var workouts2: [Workout]!
     
+  
     
         override func viewDidLoad() {
             super.viewDidLoad()
-                    self.progressTimer.setValue(55, animateWithDuration: 1)
+        
+                    progressTimer.setValue(23, forKey: "Hello")
                     timerLabel.delegate = self
                     timerLabel.timerType = MZTimerLabelTypeTimer
                     timerLabel.setCountDownTime(10)
@@ -74,6 +80,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workouts2 = dataSource.getWorkOuts2()
             workoutLabel.text = workouts2[0].title
             
+            
+            
+            
+    
+           
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
@@ -94,6 +105,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
     
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
         //go through workout2 array
@@ -126,15 +138,20 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
                 timerLabel.text = "\(workoutTimeShort)"
+                //progressTimer.unitString = timerLabel.text
+                
         }
         else if wk.title == "Rest" {
             timerLabel.setCountDownTime(restTime);
             timerLabel.text = "\(restTime)"
+            //progressTimer.unitString = timerLabel.text
         }
         
         else {
             timerLabel.setCountDownTime(workoutTimeShort);
             timerLabel.text = "\(workoutTimeLong)"
+//            progressTimer.setValue(CGFloat(55), animateWithDuration:1.0 )
+//            progressTimer.maxValue = 60.0
         }
         
             workoutLabel.text = workouts2[index+1].title

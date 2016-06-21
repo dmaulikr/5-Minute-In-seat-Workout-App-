@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JWGCircleCounter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBCircularProgressBar-MBCircularProgressBar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>08F084A2E19F47C8A7CB7869F9E5EE57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5172ACAB7FEA22813859DC97CA0AA16F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81D34E82DC7A274625FA069B29AED33C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>98CF654CB39DEE71BC807EE7CA6E00F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9E29A23890B992C6D47D51882C1B22A6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B506DBBD6652F613E0CCB1FB0D48DFD6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F222C77811AD7536614DFE6EB27E62DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
