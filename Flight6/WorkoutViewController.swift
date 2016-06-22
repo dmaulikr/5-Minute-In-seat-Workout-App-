@@ -94,7 +94,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
             button.layer.cornerRadius = cornerRadius
-            
         }
     
     override func didReceiveMemoryWarning() {
