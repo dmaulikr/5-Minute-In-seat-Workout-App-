@@ -17,7 +17,7 @@ class HelpPage: UIViewController {
         super.viewDidLoad()
         homeBtn.backgroundColor = UIColor.clearColor()
         homeBtn.layer.borderWidth = 1.0
-        button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
+        homeBtn.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         button.layer.cornerRadius = cornerRadius
         
         let color7 = UIColor.flatNavyBlueColorDark()
