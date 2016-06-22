@@ -100,6 +100,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="umq-qA-1od"/>
                     <connections>
+                        <outlet property="aboutDetail" destination="OOP-lv-Eg4" id="gws-CO-XaM"/>
                         <outlet property="aboutLabel" destination="TAi-ug-alD" id="nVu-ez-HDT"/>
                     </connections>
                 </viewController>
