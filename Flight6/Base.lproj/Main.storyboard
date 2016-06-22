@@ -84,7 +84,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About this app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOP-lv-Eg4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About this app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOP-lv-Eg4">
                                 <rect key="frame" x="44" y="185" width="512" height="242"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,7 +95,11 @@
                         <constraints>
                             <constraint firstItem="TAi-ug-alD" firstAttribute="centerX" secondItem="gGS-S7-fZ5" secondAttribute="centerX" id="4Cx-sy-zcg"/>
                             <constraint firstItem="5zK-g2-Txs" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="430" id="FMQ-K1-P3T"/>
+                            <constraint firstItem="5zK-g2-Txs" firstAttribute="top" secondItem="OOP-lv-Eg4" secondAttribute="bottom" constant="173" id="cWV-Vb-WEd"/>
+                            <constraint firstItem="OOP-lv-Eg4" firstAttribute="centerX" secondItem="TAi-ug-alD" secondAttribute="centerX" id="fX1-Ts-835"/>
                             <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="33" id="jSV-wr-Jo1"/>
+                            <constraint firstItem="OOP-lv-Eg4" firstAttribute="leading" secondItem="gGS-S7-fZ5" secondAttribute="leadingMargin" constant="28" id="rc2-1r-ipx"/>
+                            <constraint firstItem="OOP-lv-Eg4" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="15" id="tKH-XL-wrb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="umq-qA-1od"/>
