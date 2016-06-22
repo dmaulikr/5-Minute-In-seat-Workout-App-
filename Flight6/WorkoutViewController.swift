@@ -67,7 +67,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             super.viewDidLoad()
                     timerLabel.delegate = self
                     timerLabel.timerType = MZTimerLabelTypeTimer
-                    timerLabel.setCountDownTime(10)
+                    timerLabel.setCountDownTime(1)
                     timerLabel.timeFormat = "ss"
                     timerLabel.resetTimerAfterFinish = true
                     timerLabel.start()
@@ -118,6 +118,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         //count = 0;
         
        // if index % 2 == 0 {
+        
+        
             let wk = workouts2[index]
         
             mainLabel.text = wk.title
@@ -167,15 +169,25 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
 //            println(index)
        // }
         
-        index++;
-        if (index > workouts2.endIndex) {
-                        performSegueWithIdentifier("endWorkout", sender: nil)
+        if (index < workouts2.endIndex-1) {
+            index++;
         }
-//        if !((index / 2) > workouts.count) {
-//            timerLabel.start()
-//        } else {
-//            println("Workout done")
-//        }
+        
+        else {
+            timerLabel.pause();
+            timerLabel.reset();
+            performSegueWithIdentifier("endWorkout", sender: self)
+            println("Hello")
+            
+        }
+        
+        
+        
+        if !((index / 2) > workouts.count) {
+            timerLabel.start()
+        } else {
+            println("Workout done")
+        }
     }
     
 }
