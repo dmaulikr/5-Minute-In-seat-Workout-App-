@@ -20,6 +20,7 @@
 		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
+		0C56B6F51D19CAB00042F3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C772A1D1663A3001C9F64 /* ViewController.swift */; };
 		0CA543051D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
 		0CA543061D16796300A6D426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA543041D16796300A6D426 /* DetailViewController.swift */; };
 		0CC1A9CB1D1863300075D58F /* JWGCircleCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1A9CA1D1863300075D58F /* JWGCircleCounter.framework */; };
@@ -428,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C56B6F51D19CAB00042F3DB /* ViewController.swift in Sources */,
 				0CCEB5981D166D7E008A18E8 /* WorkoutViewController.swift in Sources */,
 				0C0C773F1D1663A3001C9F64 /* Flight6Tests.swift in Sources */,
 				0CCEB5951D166D5E008A18E8 /* WorkoutDatasource.swift in Sources */,

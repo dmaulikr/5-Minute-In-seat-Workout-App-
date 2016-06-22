@@ -12,7 +12,7 @@ class HelpPage: UIViewController {
     
     @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
         
         
         let color7 = UIColor.flatNavyBlueColorDark()
@@ -32,8 +32,8 @@ class HelpPage: UIViewController {
         gradientLayer.frame = view.bounds
         let backgroundView = UIView(frame: view.bounds)
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
-        //view.backgroundView = backgroundView
-        view = backgroundView
+        view.addSubview(backgroundView)
+        view.addSubview(aboutLabel)
         
     }
     
