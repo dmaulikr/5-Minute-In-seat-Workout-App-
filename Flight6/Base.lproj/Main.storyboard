@@ -366,6 +366,7 @@
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
                         <outlet property="timerLabel" destination="JBk-7z-Hk1" id="YOW-xc-y0K"/>
                         <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
+                        <segue destination="tJe-96-xSv" kind="modal" identifier="endWorkout" id="Wb5-jk-ayR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnd-Yf-3r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -401,7 +402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wU2-DT-uA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="328"/>
+            <point key="canvasLocation" x="491" y="323"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mI3-vK-JFy">
