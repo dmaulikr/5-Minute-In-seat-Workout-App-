@@ -15,11 +15,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
 
     @IBOutlet weak var backHome: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
-    
-    
     @IBOutlet weak var timerLabel: MZTimerLabel!
     @IBOutlet weak var workoutLabel: UILabel!
-    
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var nextUp: UILabel!
     @IBOutlet weak var progressTimer: JWGCircleCounter!
