@@ -159,15 +159,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
         
         
-       // } else {
-//            let wk = workouts[index / 2 + 1]
-//            timerLabel.text = "\(restTime)"
-//            mainLabel.text = "Rest !!"
-//            self.view.backgroundColor = wk.color
-//            timerLabel.setCountDownTime(restTime);
-//            workoutLabel.text = wk.title
-//            println(index)
-       // }
+    
         
         if (index < workouts2.endIndex-1) {
             index++;
