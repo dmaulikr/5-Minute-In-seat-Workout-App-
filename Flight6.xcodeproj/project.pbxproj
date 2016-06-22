@@ -20,6 +20,8 @@
 		0C0C774D1D166B99001C9F64 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C0C774E1D166B99001C9F64 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0C0C77501D166BF2001C9F64 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C774F1D166BF2001C9F64 /* Workout.swift */; };
+		0C2300801D1B4012004256D5 /* noun_70964_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C23007F1D1B4012004256D5 /* noun_70964_cc.png */; };
+		0C2300811D1B4012004256D5 /* noun_70964_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C23007F1D1B4012004256D5 /* noun_70964_cc.png */; };
 		0C56B6F51D19CAB00042F3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C772A1D1663A3001C9F64 /* ViewController.swift */; };
 		0C56B6F71D1B1AB60042F3DB /* EndWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B6F61D1B1AB60042F3DB /* EndWorkout.swift */; };
 		0C56B6F81D1B1AB60042F3DB /* EndWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B6F61D1B1AB60042F3DB /* EndWorkout.swift */; };
@@ -70,6 +72,7 @@
 		0C0C774B1D166B99001C9F64 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		0C0C774C1D166B99001C9F64 /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = "Pods/../build/Debug-iphoneos/MZTimerLabel/MZTimerLabel.framework"; sourceTree = "<group>"; };
 		0C0C774F1D166BF2001C9F64 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		0C23007F1D1B4012004256D5 /* noun_70964_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_70964_cc.png; sourceTree = "<group>"; };
 		0C56B6F61D1B1AB60042F3DB /* EndWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndWorkout.swift; sourceTree = "<group>"; };
 		0CA543041D16796300A6D426 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0CC1A9CA1D1863300075D58F /* JWGCircleCounter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWGCircleCounter.framework; path = "Pods/../build/Debug-iphoneos/JWGCircleCounter/JWGCircleCounter.framework"; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 				0CCEB5961D166D7E008A18E8 /* WorkoutViewController.swift */,
 				0CCEB5991D166DB7008A18E8 /* MainViewController.swift */,
 				0C0C772F1D1663A3001C9F64 /* Images.xcassets */,
+				0C23007F1D1B4012004256D5 /* noun_70964_cc.png */,
 				0CC1A9CC1D1972B00075D58F /* noun_106348_cc.png */,
 				0C0C77311D1663A3001C9F64 /* LaunchScreen.xib */,
 				0C0C77261D1663A3001C9F64 /* Supporting Files */,
@@ -304,6 +308,7 @@
 				0C0C772E1D1663A3001C9F64 /* Main.storyboard in Resources */,
 				0C0C77331D1663A3001C9F64 /* LaunchScreen.xib in Resources */,
 				0C0C77301D1663A3001C9F64 /* Images.xcassets in Resources */,
+				0C2300801D1B4012004256D5 /* noun_70964_cc.png in Resources */,
 				0CC1A9CD1D1972B00075D58F /* noun_106348_cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2300811D1B4012004256D5 /* noun_70964_cc.png in Resources */,
 				0C026CF41D1675E900850D9A /* Main.storyboard in Resources */,
 				0CC1A9CE1D1972B00075D58F /* noun_106348_cc.png in Resources */,
 			);
