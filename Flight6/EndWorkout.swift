@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 Hashma Shahid. All rights reserved.
 //
 
+import Foundation
 
 class EndWorkout: UIViewController {
 
