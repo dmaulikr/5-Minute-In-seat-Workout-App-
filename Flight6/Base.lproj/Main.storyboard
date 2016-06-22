@@ -399,6 +399,9 @@
                             <constraint firstItem="3Cq-G5-Bd1" firstAttribute="top" secondItem="l5C-1N-0xj" secondAttribute="bottom" constant="461" id="gdH-RU-Sm1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="endWorkoutLabel" destination="l5C-1N-0xj" id="fVB-Kg-5zm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wU2-DT-uA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
