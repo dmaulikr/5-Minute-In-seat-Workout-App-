@@ -30,9 +30,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             
             timerLabel.pause()
         }
-        
-        
-        
     }
     @IBAction func pauseResume(sender: UIButton) {
         
