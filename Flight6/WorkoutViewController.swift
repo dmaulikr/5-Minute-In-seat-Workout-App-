@@ -50,9 +50,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                     timerLabel.start()
                 }
     }
-        let restTime = 11.0
-        let workoutTimeLong = 30.0
-        let workoutTimeShort = 60.0
+        let restTime = 1.0
+        let workoutTimeLong = 2.0
+        let workoutTimeShort = 1.0
         var index = 0;
         var count = 0;
         let dataSource = WorkoutDataSource()
