@@ -61,8 +61,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         var workouts: [Workout]!
         var workouts2: [Workout]!
     
-  
-    
         override func viewDidLoad() {
             super.viewDidLoad()
             timerLabel.delegate = self
