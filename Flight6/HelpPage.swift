@@ -25,6 +25,9 @@ class HelpPage: UIViewController {
         let color7 = UIColor.flatNavyBlueColorDark()
         let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         setTableViewBackgroundGradient(color7, bottomColor: color1);
+        view.addSubview(aboutLabel)
+        view.addSubview(aboutDetail)
+        view.addSubview(homeBtn)
     }
     
     func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
@@ -40,9 +43,7 @@ class HelpPage: UIViewController {
         let backgroundView = UIView(frame: view.bounds)
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         view.addSubview(backgroundView)
-        view.addSubview(aboutLabel)
-        view.addSubview(aboutDetail)
-        view.addSubview(homeBtn)
+        
         
     }
     
