@@ -84,9 +84,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
             buttonUI(backHome)
-            
-            
-            
         }
     
         func buttonUI(button: UIButton) {
