@@ -155,6 +155,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         }
         
         
+        
+        
        // } else {
 //            let wk = workouts[index / 2 + 1]
 //            timerLabel.text = "\(restTime)"
@@ -166,11 +168,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
        // }
         
         index++;
-        if !((index / 2) > workouts.count) {
-            timerLabel.start()
-        } else {
-            println("Workout done")
-        }
+//        if !((index / 2) > workouts.count) {
+//            timerLabel.start()
+//        } else {
+//            println("Workout done")
+//        }
     }
     
 }
