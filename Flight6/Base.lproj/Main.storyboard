@@ -333,14 +333,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRR-9z-atO" customClass="JWGCircleCounter" customModule="Flight6">
-                                <rect key="frame" x="133" y="237" width="197" height="213"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="60" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-7z-Hk1" customClass="MZTimerLabel">
-                                <rect key="frame" x="299" y="138" width="72" height="49"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-7z-Hk1" customClass="MZTimerLabel">
+                                <rect key="frame" x="221" y="407" width="158" height="103"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="123"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -350,12 +346,8 @@
                             <constraint firstItem="fIB-Ah-gEl" firstAttribute="top" secondItem="NRw-BG-j9b" secondAttribute="top" id="DHP-Jy-aEo"/>
                             <constraint firstItem="tGN-Rh-Umz" firstAttribute="top" secondItem="NRw-BG-j9b" secondAttribute="bottom" constant="34" id="I57-ai-9U8"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="centerX" secondItem="jk1-d7-tWM" secondAttribute="centerX" id="Kpr-Tl-THL"/>
-                            <constraint firstItem="NRw-BG-j9b" firstAttribute="top" secondItem="FRR-9z-atO" secondAttribute="bottom" constant="85" id="PLk-j9-b6V"/>
-                            <constraint firstAttribute="trailing" secondItem="FRR-9z-atO" secondAttribute="trailing" constant="270" id="Pga-E3-8ck"/>
                             <constraint firstItem="xYd-Xc-NYi" firstAttribute="centerX" secondItem="F3P-v6-CiJ" secondAttribute="centerX" id="QDa-g4-g1A"/>
-                            <constraint firstItem="FRR-9z-atO" firstAttribute="top" secondItem="xYd-Xc-NYi" secondAttribute="bottom" constant="19" id="QQS-fR-mnu"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" constant="52" id="RPk-uC-Nvj"/>
-                            <constraint firstItem="FRR-9z-atO" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leading" constant="133" id="UhM-fy-aGg"/>
                             <constraint firstItem="fIB-Ah-gEl" firstAttribute="baseline" secondItem="NRw-BG-j9b" secondAttribute="firstBaseline" id="WQ9-Sl-c99"/>
                             <constraint firstItem="NRw-BG-j9b" firstAttribute="baseline" secondItem="fIB-Ah-gEl" secondAttribute="firstBaseline" id="WVr-sl-8AU"/>
                             <constraint firstItem="fIB-Ah-gEl" firstAttribute="trailing" secondItem="F3P-v6-CiJ" secondAttribute="trailingMargin" id="eg9-Vn-Lcg"/>
@@ -371,7 +363,6 @@
                         <outlet property="mainLabel" destination="XCc-9Y-N1a" id="Bys-A3-cg2"/>
                         <outlet property="nextUp" destination="jk1-d7-tWM" id="Sg0-6j-FEh"/>
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
-                        <outlet property="progressTimer" destination="FRR-9z-atO" id="FLR-BR-Aeo"/>
                         <outlet property="timerLabel" destination="JBk-7z-Hk1" id="YOW-xc-y0K"/>
                         <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
                     </connections>

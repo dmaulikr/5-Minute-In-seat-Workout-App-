@@ -41,8 +41,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 if sender.currentTitle == "Pause" {
                     // do something
                     pauseButton.setTitle("Resume", forState: .Normal)
-                    //timerLabel.pause()
-                    progressTimer.stop()
+                    timerLabel.pause()
                 }
         
                 else if (sender.currentTitle == "Resume") {
@@ -68,8 +67,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
         override func viewDidLoad() {
             super.viewDidLoad()
-        
-                    progressTimer.setValue(23, forKey: "Hello")
                     timerLabel.delegate = self
                     timerLabel.timerType = MZTimerLabelTypeTimer
                     timerLabel.setCountDownTime(10)
