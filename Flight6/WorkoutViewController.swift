@@ -75,11 +75,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workouts2 = dataSource.getWorkOuts2()
             workoutLabel.text = workouts2[0].title
             
-            
-            
-            
-    
-           
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
