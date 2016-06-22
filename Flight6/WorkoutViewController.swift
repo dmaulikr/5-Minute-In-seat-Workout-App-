@@ -22,7 +22,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var nextUp: UILabel!
-      @IBOutlet weak var progressTimer: JWGCircleCounter!
+    @IBOutlet weak var progressTimer: JWGCircleCounter!
     
     
     @IBAction func stopMZTimerLabel(sender: UIButton) {
