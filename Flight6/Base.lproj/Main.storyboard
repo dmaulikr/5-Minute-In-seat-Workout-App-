@@ -90,12 +90,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uj-gC-l9G">
-                                <rect key="frame" x="250" y="547" width="100" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="U1B-DX-0Md"/>
-                                    <constraint firstAttribute="height" constant="33" id="aBV-Lg-PZK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <rect key="frame" x="233" y="529" width="134" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
                                 <state key="normal" title="Homepage">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,13 +104,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9uj-gC-l9G" firstAttribute="centerX" secondItem="gGS-S7-fZ5" secondAttribute="centerX" id="94H-aO-3DQ"/>
                             <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="57" id="D3o-4M-7mA"/>
                             <constraint firstItem="OOP-lv-Eg4" firstAttribute="centerX" secondItem="TAi-ug-alD" secondAttribute="centerX" id="K2c-e8-gyB"/>
-                            <constraint firstAttribute="bottom" secondItem="9uj-gC-l9G" secondAttribute="bottom" constant="20" symbolic="YES" id="LLM-iY-5zg"/>
-                            <constraint firstItem="9uj-gC-l9G" firstAttribute="top" secondItem="OOP-lv-Eg4" secondAttribute="bottom" constant="96" id="W94-kp-ObM"/>
                             <constraint firstItem="OOP-lv-Eg4" firstAttribute="leading" secondItem="gGS-S7-fZ5" secondAttribute="leadingMargin" constant="28" id="bae-Yh-k3j"/>
-                            <constraint firstItem="OOP-lv-Eg4" firstAttribute="centerX" secondItem="9uj-gC-l9G" secondAttribute="centerX" id="hxC-Ms-SgP"/>
                             <constraint firstItem="OOP-lv-Eg4" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="15" id="vJ0-We-r4C"/>
                         </constraints>
                     </view>
@@ -138,7 +130,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6de-7N-uTv">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Minute  Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
@@ -489,6 +481,6 @@
         <image name="noun_106348_cc.png" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OcJ-sb-fcp"/>
+        <segue reference="XUg-XD-uIo"/>
     </inferredMetricsTieBreakers>
 </document>
