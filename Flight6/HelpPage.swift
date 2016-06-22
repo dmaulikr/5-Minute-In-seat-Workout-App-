@@ -35,7 +35,7 @@ class HelpPage: UIViewController {
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         view.addSubview(backgroundView)
         view.addSubview(aboutLabel)
-        //view.addSubview(<#view: UIView#>)
+        view.addSubview(<#view: UIView#>)
         
     }
     
