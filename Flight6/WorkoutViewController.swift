@@ -47,9 +47,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 else if (sender.currentTitle == "Resume") {
                     // do something else
                     pauseButton.setTitle("Pause", forState: .Normal)
-                    //timerLabel.start()
-                    
-                    progressTimer.startWithSeconds(50)
+                    timerLabel.start()
                 }
     }
         let restTime = 11.0
@@ -105,8 +103,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
 
     
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
-        //go through workout2 array
-        //set time in workout2 array
         let workoutRoutine = workouts2
         
     
