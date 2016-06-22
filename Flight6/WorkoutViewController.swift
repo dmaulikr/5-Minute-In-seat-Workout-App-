@@ -67,7 +67,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             super.viewDidLoad()
             timerLabel.delegate = self
             timerLabel.timerType = MZTimerLabelTypeTimer
-                    timerLabel.setCountDownTime(1)
+            timerLabel.setCountDownTime(1)
                     timerLabel.timeFormat = "ss"
                     timerLabel.resetTimerAfterFinish = true
                     timerLabel.start()
