@@ -10,6 +10,7 @@ import UIKit
 
 class EndWorkout: UIViewController {
     
+    @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var endWorkoutLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

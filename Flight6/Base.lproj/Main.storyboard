@@ -426,6 +426,7 @@
                                 </state>
                                 <connections>
                                     <action selector="stopMZTimerLabel:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="2vm-QY-M7k"/>
+                                    <segue destination="1Hz-KP-xjB" kind="modal" id="nWm-Pc-ri1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -438,6 +439,7 @@
                     </view>
                     <connections>
                         <outlet property="endWorkoutLabel" destination="l5C-1N-0xj" id="fVB-Kg-5zm"/>
+                        <outlet property="homeBtn" destination="2bi-Yc-QCK" id="EHc-rQ-kfy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wU2-DT-uA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -504,6 +506,6 @@
         <image name="noun_106348_cc.png" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XUg-XD-uIo"/>
+        <segue reference="nWm-Pc-ri1"/>
     </inferredMetricsTieBreakers>
 </document>
