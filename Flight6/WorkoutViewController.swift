@@ -104,8 +104,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
         let workoutRoutine = workouts2
-        
-            let wk = workouts2[index]
+        let wk = workouts2[index]
         
             mainLabel.text = wk.title
             self.view.backgroundColor = wk.color
