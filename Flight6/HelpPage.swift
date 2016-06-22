@@ -37,7 +37,7 @@ class HelpPage: UIViewController {
         view.addSubview(backgroundView)
         view.addSubview(aboutLabel)
         view.addSubview(aboutDetail)
-        //view.addSubview(<#view: UIView#>)
+        view.addSubview(homeBtn)
         
     }
     
