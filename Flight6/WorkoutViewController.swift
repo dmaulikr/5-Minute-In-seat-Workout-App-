@@ -105,28 +105,10 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
         let workoutRoutine = workouts2
         
-    
-//            let wk = workouts2[count]
-//            timerLabel.text = "\(workoutTime)"
-//            mainLabel.text = wk.title
-//            self.view.backgroundColor = wk.color
-//            timerLabel.setCountDownTime(workoutTime);
-//            workoutLabel.text = "Rest !!"
-//            
-//        
-//        count++;
-        //count = 0;
-        
-       // if index % 2 == 0 {
-        
-        
             let wk = workouts2[index]
         
             mainLabel.text = wk.title
             self.view.backgroundColor = wk.color
-        
-                
-                
                 
                 //use indices
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
