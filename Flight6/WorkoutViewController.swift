@@ -156,11 +156,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workoutLabel.text = "End Workout"
         }
         
-        
-        
-        
-    
-        
         if (index < workouts2.endIndex-1) {
             index++;
         }
@@ -172,8 +167,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             println("Hello")
             
         }
-        
-        
         
         if !((index / 2) > workouts.count) {
             timerLabel.start()
