@@ -373,10 +373,10 @@
             </objects>
             <point key="canvasLocation" x="-257" y="197"/>
         </scene>
-        <!--View Controller-->
+        <!--End Workout-->
         <scene sceneID="r7z-c4-ek8">
             <objects>
-                <viewController id="tJe-96-xSv" sceneMemberID="viewController">
+                <viewController id="tJe-96-xSv" customClass="EndWorkout" customModule="Flight6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="co4-NU-4MH"/>
                         <viewControllerLayoutGuide type="bottom" id="3Cq-G5-Bd1"/>
