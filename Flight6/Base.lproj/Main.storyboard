@@ -76,10 +76,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAi-ug-alD">
-                                <rect key="frame" x="145" y="226" width="310" height="147"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="180" y="97" width="240" height="73"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="310" id="9xg-M5-JV7"/>
+                                    <constraint firstAttribute="width" constant="240" id="m8q-4P-vH5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -88,9 +87,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="162" id="2Oo-bW-EDN"/>
-                            <constraint firstItem="TAi-ug-alD" firstAttribute="centerX" secondItem="gGS-S7-fZ5" secondAttribute="centerX" id="3zx-xs-DYM"/>
-                            <constraint firstItem="5zK-g2-Txs" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="227" id="aek-CX-nYI"/>
+                            <constraint firstItem="TAi-ug-alD" firstAttribute="centerX" secondItem="gGS-S7-fZ5" secondAttribute="centerX" id="4Cx-sy-zcg"/>
+                            <constraint firstItem="5zK-g2-Txs" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="430" id="FMQ-K1-P3T"/>
+                            <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="33" id="jSV-wr-Jo1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="umq-qA-1od"/>
