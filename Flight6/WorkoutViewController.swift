@@ -135,6 +135,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 timerLabel.text = "\(workoutTimeShort)"
                 
         }
+            
         else if wk.title == "Rest" {
             timerLabel.setCountDownTime(restTime);
             timerLabel.text = "\(restTime)"
