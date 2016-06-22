@@ -68,9 +68,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             timerLabel.delegate = self
             timerLabel.timerType = MZTimerLabelTypeTimer
             timerLabel.setCountDownTime(1)
-                    timerLabel.timeFormat = "ss"
-                    timerLabel.resetTimerAfterFinish = true
-                    timerLabel.start()
+            timerLabel.timeFormat = "ss"
+            timerLabel.resetTimerAfterFinish = true
+            timerLabel.start()
             workouts = dataSource.getWorkOuts()
             workouts2 = dataSource.getWorkOuts2()
             workoutLabel.text = workouts2[0].title
