@@ -121,6 +121,7 @@
                     <connections>
                         <outlet property="aboutDetail" destination="OOP-lv-Eg4" id="gws-CO-XaM"/>
                         <outlet property="aboutLabel" destination="TAi-ug-alD" id="nVu-ez-HDT"/>
+                        <outlet property="homeBtn" destination="9uj-gC-l9G" id="T8M-g9-Kb5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OW3-6H-eTv" userLabel="First Responder" sceneMemberID="firstResponder"/>

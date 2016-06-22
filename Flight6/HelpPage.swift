@@ -10,6 +10,7 @@ import UIKit
 
 class HelpPage: UIViewController {
     
+    @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var aboutDetail: UILabel!
     @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
@@ -36,6 +37,7 @@ class HelpPage: UIViewController {
         view.addSubview(backgroundView)
         view.addSubview(aboutLabel)
         view.addSubview(aboutDetail)
+        //view.addSubview(<#view: UIView#>)
         
     }
     
