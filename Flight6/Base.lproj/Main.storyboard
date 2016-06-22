@@ -102,6 +102,7 @@
                                 </state>
                                 <connections>
                                     <action selector="stopMZTimerLabel:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="32H-qs-Hdc"/>
+                                    <segue destination="1Hz-KP-xjB" kind="modal" id="XUg-XD-uIo"/>
                                 </connections>
                             </button>
                         </subviews>
