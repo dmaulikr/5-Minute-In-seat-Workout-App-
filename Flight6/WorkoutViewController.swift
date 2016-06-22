@@ -130,9 +130,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 
                 
                 
-                //setValue:55.f animateWithDuration:1];
+                //use indices
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
-            wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister"  {
+            wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
                 timerLabel.text = "\(workoutTimeShort)"
                 //progressTimer.unitString = timerLabel.text
@@ -147,12 +147,20 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         else {
             timerLabel.setCountDownTime(workoutTimeShort);
             timerLabel.text = "\(workoutTimeLong)"
-//            progressTimer.setValue(CGFloat(55), animateWithDuration:1.0 )
-//            progressTimer.maxValue = 60.0
         }
         
-            workoutLabel.text = workouts2[index+1].title
-            println(index)
+        if (index+1 < workouts2.endIndex) {
+             workoutLabel.text = workouts2[index+1].title
+            println(index + 1)
+            println("End")
+            println(workouts2.endIndex)
+        }
+        
+        else {
+            workoutLabel.text = "End Workout"
+        }
+        
+        
        // } else {
 //            let wk = workouts[index / 2 + 1]
 //            timerLabel.text = "\(restTime)"
