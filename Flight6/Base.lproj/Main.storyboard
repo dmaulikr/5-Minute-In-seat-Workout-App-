@@ -383,7 +383,20 @@
                     <view key="view" contentMode="scaleToFill" id="Yqs-Mt-SDB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Ended!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-1N-0xj">
+                                <rect key="frame" x="146" y="118" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l5C-1N-0xj" firstAttribute="leading" secondItem="Yqs-Mt-SDB" secondAttribute="leading" constant="146" id="IGB-Sa-noH"/>
+                            <constraint firstItem="l5C-1N-0xj" firstAttribute="top" secondItem="co4-NU-4MH" secondAttribute="bottom" constant="98" id="Q6t-BS-ebZ"/>
+                            <constraint firstItem="3Cq-G5-Bd1" firstAttribute="top" secondItem="l5C-1N-0xj" secondAttribute="bottom" constant="461" id="gdH-RU-Sm1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wU2-DT-uA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
