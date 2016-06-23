@@ -85,12 +85,11 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
                                 <rect key="frame" x="51" y="123" width="499" height="394"/>
-                                <mutableString key="text">Deep-Vein Thrombosis (DVT) is a condition where blood clots form in your veins due to extended periods of traveling while seated. The 5 Minute Inflight Workout is designed to prevent this potentially life-threatening condition and keep you healthy and fit while jet setting around the world. The workout is not limited to travel only, it can be used to exercise while sitting in any chair, be it in your office or living room! Benefits include:
-- Increases your metabolism and improves digestion
-- Tones muscles in target areas which include abs and upper and lower arms
-- Prevents DVT
-- Increases blood circulation
-Now you have no excuse to skip on daily exercise when you can do it sitting in a chair!
+                                <mutableString key="text">Deep-Vein Thrombosis (DVT) is a condition where blood clots form in your veins due to extended periods of traveling while seated. The 5 Minute Inflight Workout is designed to prevent this potentially life-threatening condition and keep you healthy and fit while jet setting around the world. The workout is not limited to travel only, it can be used to exercise while sitting in any chair, be it in your office or living room!  Benefits include:
+1. Increases your metabolism and improves digestion
+2. Tones muscles in target areas which include abs and upper and lower arms
+3. Prevents DVT
+4. Increases blood circulation Now you have no excuse to skip on daily exercise when you can do it sitting in a chair!
 *Disclaimer: I suggest you ask your doctor before doing anything silly because my father said so. </mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
