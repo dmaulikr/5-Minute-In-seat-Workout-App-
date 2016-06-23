@@ -12,6 +12,7 @@ class HelpPage: UIViewController {
     
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var aboutDetail: UILabel!
+    
     @IBOutlet weak var aboutLabel: UILabel!
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
