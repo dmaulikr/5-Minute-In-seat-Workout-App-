@@ -73,16 +73,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAi-ug-alD">
-                                <rect key="frame" x="180" y="72" width="240" height="57"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="7zS-jK-kx7"/>
-                                    <constraint firstAttribute="width" constant="240" id="8Ha-N1-fU2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uj-gC-l9G">
                                 <rect key="frame" x="183" y="520" width="234" height="45"/>
                                 <constraints>
@@ -99,8 +89,8 @@
                                     <segue destination="1Hz-KP-xjB" kind="modal" id="XUg-XD-uIo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
-                                <rect key="frame" x="51" y="137" width="499" height="380"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
+                                <rect key="frame" x="51" y="123" width="499" height="394"/>
                                 <mutableString key="text">Deep-Vein Thrombosis (DVT) is a condition where blood clots form in your veins due to extended periods of traveling while seated. The 5 Minute Inflight Workout is designed to prevent this potentially life-threatening condition and keep you healthy and fit while jet setting around the world. The workout is not limited to travel only, it can be used to exercise while sitting in any chair, be it in your office or living room! Benefits include:
 Increases your metabolism and improves digestion
 Tones muscles in target areas which include abs and upper and lower arms
@@ -108,19 +98,29 @@ Prevents DVT
 Increases blood circulation
 Now you have no excuse to skip on daily exercise when you can do it sitting in a chair!
 *Disclaimer: </mutableString>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAi-ug-alD">
+                                <rect key="frame" x="180" y="72" width="240" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="2A2-VD-Wld"/>
+                                    <constraint firstAttribute="width" constant="240" id="NMN-xR-1Vv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="8" symbolic="YES" id="2dd-Fd-11K"/>
-                            <constraint firstItem="yIV-8w-1gj" firstAttribute="centerX" secondItem="9uj-gC-l9G" secondAttribute="centerX" id="Dg0-Q6-3FT"/>
-                            <constraint firstItem="yIV-8w-1gj" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="8" symbolic="YES" id="HQC-Gl-N55"/>
-                            <constraint firstItem="yIV-8w-1gj" firstAttribute="leading" secondItem="gGS-S7-fZ5" secondAttribute="leadingMargin" constant="35" id="Xk3-3k-PFr"/>
-                            <constraint firstItem="9uj-gC-l9G" firstAttribute="top" secondItem="yIV-8w-1gj" secondAttribute="bottom" constant="3" id="u1g-dL-jKe"/>
-                            <constraint firstItem="TAi-ug-alD" firstAttribute="centerX" secondItem="9uj-gC-l9G" secondAttribute="centerX" id="vka-q0-nFy"/>
+                            <constraint firstItem="yIV-8w-1gj" firstAttribute="leading" secondItem="gGS-S7-fZ5" secondAttribute="leadingMargin" constant="35" id="Al3-Yz-LKp"/>
+                            <constraint firstItem="yIV-8w-1gj" firstAttribute="centerX" secondItem="TAi-ug-alD" secondAttribute="centerX" id="DsO-yR-K4O"/>
+                            <constraint firstItem="yIV-8w-1gj" firstAttribute="centerX" secondItem="9uj-gC-l9G" secondAttribute="centerX" id="ILX-9I-OgF"/>
+                            <constraint firstItem="9uj-gC-l9G" firstAttribute="top" secondItem="yIV-8w-1gj" secondAttribute="bottom" constant="3" id="YwD-Tn-4MM"/>
+                            <constraint firstItem="TAi-ug-alD" firstAttribute="top" secondItem="Iu4-u2-0tX" secondAttribute="bottom" constant="8" symbolic="YES" id="ex8-Eh-L3e"/>
+                            <constraint firstItem="yIV-8w-1gj" firstAttribute="top" secondItem="TAi-ug-alD" secondAttribute="bottom" constant="8" symbolic="YES" id="phU-3d-gyM"/>
                             <constraint firstItem="5zK-g2-Txs" firstAttribute="top" secondItem="9uj-gC-l9G" secondAttribute="bottom" constant="35" id="xyw-0D-vLI"/>
                             <constraint firstItem="9uj-gC-l9G" firstAttribute="centerX" secondItem="gGS-S7-fZ5" secondAttribute="centerX" id="y2j-qN-Lsm"/>
                         </constraints>
