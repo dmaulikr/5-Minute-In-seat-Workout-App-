@@ -11,6 +11,7 @@ import UIKit
 class HelpPage: UIViewController {
     
     @IBOutlet weak var homeBtn: UIButton!
+   
     @IBOutlet weak var aboutDetail: UILabel!
     
     @IBOutlet weak var aboutLabel: UILabel!

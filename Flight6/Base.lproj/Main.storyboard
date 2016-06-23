@@ -129,7 +129,8 @@ Now you have no excuse to skip on daily exercise when you can do it sitting in a
                     </view>
                     <navigationItem key="navigationItem" id="umq-qA-1od"/>
                     <connections>
-                        <outlet property="aboutLabel" destination="yIV-8w-1gj" id="5LO-Lf-lFt"/>
+                        <outlet property="aboutDetail" destination="yIV-8w-1gj" id="qc7-kL-cVp"/>
+                        <outlet property="aboutLabel" destination="TAi-ug-alD" id="iYy-Q4-zNf"/>
                         <outlet property="homeBtn" destination="9uj-gC-l9G" id="T8M-g9-Kb5"/>
                     </connections>
                 </viewController>
