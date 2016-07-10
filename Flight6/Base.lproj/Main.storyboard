@@ -85,12 +85,12 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
                                 <rect key="frame" x="51" y="123" width="499" height="394"/>
-                                <mutableString key="text">Deep-Vein Thrombosis (DVT) is a condition where blood clots form in your veins due to extended periods of traveling while seated. The 5 Minute Inflight Workout is designed to prevent this potentially life-threatening condition and keep you healthy and fit while jet setting around the world. The workout is not limited to travel only, it can be used to exercise while sitting in any chair, be it in your office or living room!  Benefits include:
+                                <string key="text">Deep-Vein Thrombosis (DVT) is a condition where blood clots form in your veins due to extended periods of traveling while seated. The 5 Minute Inflight Workout is designed to prevent this potentially life-threatening condition and keep you healthy and fit while jet setting around the world. The workout is not limited to travel only, it can be used to exercise while sitting in any chair, be it in your office or living room!  Benefits include:
 1. Increases your metabolism and improves digestion
 2. Tones muscles in target areas which include abs and upper and lower arms
 3. Prevents DVT
 4. Increases blood circulation Now you have no excuse to skip on daily exercise when you can do it sitting in a chair!
-*Disclaimer: I suggest you ask your doctor before doing anything silly because my father said so. </mutableString>
+*Disclaimer: I suggest you ask your doctor before doing anything silly because my father said so. </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -144,10 +144,10 @@
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6de-7N-uTv">
-                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5 Minute  Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Minute  Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
                                 <rect key="frame" x="153" y="37" width="295" height="117"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="117" id="ckE-fa-2v9"/>
@@ -157,7 +157,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="9G5-vN-swJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="9G5-vN-swJ">
                                 <rect key="frame" x="0.0" y="183" width="600" height="353"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="erz-F6-vGk">
@@ -334,16 +334,6 @@
                                     <action selector="pauseResume:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="rB7-Lr-uCt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-7z-Hk1" customClass="MZTimerLabel">
-                                <rect key="frame" x="221" y="407" width="158" height="103"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="103" id="6Xb-OX-jIH"/>
-                                    <constraint firstAttribute="width" constant="158" id="UDY-tV-g0w"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="110"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-Xc-NYi">
                                 <rect key="frame" x="190" y="155" width="221" height="26"/>
                                 <constraints>
@@ -369,9 +359,20 @@
                                     <segue destination="1Hz-KP-xjB" kind="show" id="aoQ-ct-G8n"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-7z-Hk1" customClass="MZTimerLabel">
+                                <rect key="frame" x="221" y="414" width="158" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="882-RJ-SFF"/>
+                                    <constraint firstAttribute="height" constant="103" id="drQ-dT-CPz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="110"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tGN-Rh-Umz" firstAttribute="top" secondItem="JBk-7z-Hk1" secondAttribute="bottom" constant="83" id="5KK-ua-NsP"/>
                             <constraint firstItem="xYd-Xc-NYi" firstAttribute="centerX" secondItem="jk1-d7-tWM" secondAttribute="centerX" id="6AW-4b-QOL"/>
                             <constraint firstItem="fIB-Ah-gEl" firstAttribute="trailing" secondItem="XCc-9Y-N1a" secondAttribute="trailing" id="JWy-kq-b7b"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" id="Lv3-bK-Wts"/>
@@ -379,12 +380,11 @@
                             <constraint firstItem="tGN-Rh-Umz" firstAttribute="top" secondItem="NRw-BG-j9b" secondAttribute="bottom" constant="34" id="aCc-T8-h46"/>
                             <constraint firstItem="jk1-d7-tWM" firstAttribute="top" secondItem="XCc-9Y-N1a" secondAttribute="bottom" constant="8" symbolic="YES" id="gtq-4N-CXf"/>
                             <constraint firstItem="fIB-Ah-gEl" firstAttribute="trailing" secondItem="F3P-v6-CiJ" secondAttribute="trailingMargin" id="k2I-p5-SEN"/>
-                            <constraint firstItem="xYd-Xc-NYi" firstAttribute="centerX" secondItem="JBk-7z-Hk1" secondAttribute="centerX" id="kTf-cd-uN1"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="centerX" secondItem="jk1-d7-tWM" secondAttribute="centerX" id="kfs-Kx-oaA"/>
-                            <constraint firstItem="tGN-Rh-Umz" firstAttribute="top" secondItem="JBk-7z-Hk1" secondAttribute="bottom" constant="90" id="nZR-ek-kLG"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="NRw-BG-j9b" secondAttribute="leading" id="wlQ-XR-ztS"/>
                             <constraint firstItem="NRw-BG-j9b" firstAttribute="baseline" secondItem="fIB-Ah-gEl" secondAttribute="baseline" id="xaU-ue-nfw"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="top" secondItem="Cvp-KN-Dit" secondAttribute="bottom" id="ytq-uA-P9A"/>
+                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="z1p-yZ-C10"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GvC-gJ-cIh"/>
@@ -515,6 +515,6 @@
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XUg-XD-uIo"/>
+        <segue reference="aoQ-ct-G8n"/>
     </inferredMetricsTieBreakers>
 </document>

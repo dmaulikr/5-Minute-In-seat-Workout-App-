@@ -45,8 +45,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
                 }
     }
         let restTime = 1.0
-        let workoutTimeLong = 2.0
-        let workoutTimeShort = 1.0
+        let workoutTimeLong = 6.0
+        let workoutTimeShort = 3.0
         var index = 0;
         var count = 0;
         let dataSource = WorkoutDataSource()
@@ -66,6 +66,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workouts = dataSource.getWorkOuts()
             workouts2 = dataSource.getWorkOuts2()
             workoutLabel.text = workouts2[0].title
+            
             
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
@@ -90,12 +91,15 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         let wk = workouts2[index]
         mainLabel.text = wk.title
         self.view.backgroundColor = wk.color
+        self.navigationController?.navigationItem.title = wk.title
+        
                 
                 //use indices
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
                 timerLabel.text = "\(workoutTimeShort)"
+                
                 
         }
             
