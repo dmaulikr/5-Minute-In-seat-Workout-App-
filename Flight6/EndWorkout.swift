@@ -24,7 +24,7 @@ class EndWorkout: UIViewController {
         let color7 = UIColor.flatNavyBlueColorDark()
         let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         setTableViewBackgroundGradient(color7, bottomColor: color1);
-        view.addSubview(homeBtn)
+        view.addSubview(homeBtn?)
         view.addSubview(endWorkoutLabel)
     }
     
