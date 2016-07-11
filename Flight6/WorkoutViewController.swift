@@ -21,6 +21,17 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     @IBOutlet weak var nextUp: UILabel!
     @IBOutlet weak var progressTimer: JWGCircleCounter!
     
+    let restTime = 1.0
+    let workoutTimeLong = 3.0
+    let workoutTimeShort = 1.0
+    var index = 0;
+    var count = 0;
+    let dataSource = WorkoutDataSource()
+    let borderAlpha : CGFloat = 0.7
+    let cornerRadius : CGFloat = 5.0
+    var workouts: [Workout]!
+    var workouts2: [Workout]!
+    
     //stop timer if user returns to home
     @IBAction func stopMZTimerLabel(sender: UIButton) {
         if sender.currentTitle == "Back to Homepage" {
@@ -42,17 +53,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             // do something else
             pauseButton.setTitle("Pause", forState: .Normal)
             timerLabel.start()}}
-    
-        let restTime = 1.0
-        let workoutTimeLong = 3.0
-        let workoutTimeShort = 1.0
-        var index = 0;
-        var count = 0;
-        let dataSource = WorkoutDataSource()
-        let borderAlpha : CGFloat = 0.7
-        let cornerRadius : CGFloat = 5.0
-        var workouts: [Workout]!
-        var workouts2: [Workout]!
     
         override func viewDidLoad() {
             super.viewDidLoad()
