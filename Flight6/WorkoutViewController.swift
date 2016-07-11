@@ -21,7 +21,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     @IBOutlet weak var nextUp: UILabel!
     @IBOutlet weak var progressTimer: JWGCircleCounter!
     
-    
+    //stop timer if user returns to home
     @IBAction func stopMZTimerLabel(sender: UIButton) {
         if sender.currentTitle == "Back to Homepage" {
             
