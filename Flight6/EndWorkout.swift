@@ -10,7 +10,7 @@ import UIKit
 
 class EndWorkout: UIViewController {
     
-    
+    //back to homepage
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var endWorkoutLabel: UILabel!
     let borderAlpha : CGFloat = 0.7
