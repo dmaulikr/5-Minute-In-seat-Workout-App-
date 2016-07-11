@@ -19,7 +19,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
+        //set background color and text
         self.view.backgroundColor = workout.color
         self.detailText.text = workout.workoutText
         self.title = workout.title
