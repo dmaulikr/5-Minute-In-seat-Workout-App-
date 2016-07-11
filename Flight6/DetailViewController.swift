@@ -10,6 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    //instance of Workout class
     var workout: Workout!
     @IBOutlet weak var detailText: UILabel!
     @IBOutlet weak var backHome: UIButton!
@@ -18,8 +19,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-      
+        //
         self.view.backgroundColor = workout.color
         self.detailText.text = workout.workoutText
         self.title = workout.title
