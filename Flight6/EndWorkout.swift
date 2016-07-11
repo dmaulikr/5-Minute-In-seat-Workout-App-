@@ -49,9 +49,5 @@ class EndWorkout: UIViewController {
         let backgroundView = UIView(frame: view.bounds)
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         view.addSubview(backgroundView)
-        
-        
     }
-
-
 }
