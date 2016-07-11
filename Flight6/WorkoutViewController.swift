@@ -106,29 +106,24 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
              workoutLabel.text = workouts2[index+1].title
             println(index + 1)
             println("End")
-            println(workouts2.endIndex)
-        }
+            println(workouts2.endIndex)}
         
         else {
-            workoutLabel.text = "End Workout"
-        }
+            workoutLabel.text = "End Workout"}
         
         if (index < workouts2.endIndex-1) {
-            index++;
-        }
+            index++;}
         
         else {
             timerLabel.pause();
             timerLabel.reset();
             performSegueWithIdentifier("endWorkout", sender: self)
-            return;
-        }
+            return;}
         
         if !((index / 2) > workouts.count) {
             timerLabel.start()
         } else {
-            println("Workout done")
-        }
+            println("Workout done")}
     }
     
 
