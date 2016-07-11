@@ -12,6 +12,7 @@ class WorkoutCell: UITableViewCell  {
 
     @IBOutlet weak var textCellLabel: UILabel!
     @IBOutlet weak var countLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,7 +20,6 @@ class WorkoutCell: UITableViewCell  {
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
         // Configure the view for the selected state
     }
 }
