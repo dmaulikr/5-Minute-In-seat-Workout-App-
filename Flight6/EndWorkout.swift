@@ -17,6 +17,7 @@ class EndWorkout: UIViewController {
     //border and corner settings for button
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         homeBtn.backgroundColor = UIColor.clearColor()
