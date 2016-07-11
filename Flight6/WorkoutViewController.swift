@@ -96,13 +96,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             
         else if wk.title == "Rest" {
             timerLabel.setCountDownTime(restTime);
-            timerLabel.text = "\(restTime)"
-        }
+            timerLabel.text = "\(restTime)"}
         
         else {
             timerLabel.setCountDownTime(workoutTimeShort);
-            timerLabel.text = "\(workoutTimeLong)"
-        }
+            timerLabel.text = "\(workoutTimeLong)"}
         
         if (index+1 < workouts2.endIndex) {
              workoutLabel.text = workouts2[index+1].title
