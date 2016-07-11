@@ -17,8 +17,10 @@ class HelpPage: UIViewController {
     //border and corner settings for button
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //set background color and style of "back to home" button
         homeBtn.backgroundColor = UIColor.clearColor()
         homeBtn.layer.borderWidth = 1.0
         homeBtn.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
