@@ -9,7 +9,9 @@
 import Foundation
 import UIKit
 
+/*Workout class and attributes*/
 class Workout {
+    
     var title: String!
     var workoutText: String!
     var color: UIColor!
@@ -19,7 +21,4 @@ class Workout {
         self.workoutText = workoutText
         self.color = color
     }
-    
-    
-    
 }
