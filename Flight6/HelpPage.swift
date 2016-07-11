@@ -36,6 +36,7 @@ class HelpPage: UIViewController {
         view.addSubview(homeBtn)
     }
     
+    //function to set the background gradient
     func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
         
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
