@@ -35,6 +35,7 @@ class EndWorkout: UIViewController {
         view.addSubview(endWorkoutLabel)
     }
     
+    //function to set the background gradient
     func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
         
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
