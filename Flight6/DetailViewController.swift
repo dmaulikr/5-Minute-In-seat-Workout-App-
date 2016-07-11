@@ -9,10 +9,9 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
     var workout: Workout!
-    
     @IBOutlet weak var detailText: UILabel!
-    
     @IBOutlet weak var backHome: UIButton!
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
