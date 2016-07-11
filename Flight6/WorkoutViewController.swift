@@ -135,6 +135,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             timerLabel.reset();
             performSegueWithIdentifier("endWorkout", sender: self)
             println("Hello")
+            return;
         }
         
         if !((index / 2) > workouts.count) {
