@@ -125,7 +125,4 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         } else {
             println("Workout done")}
     }
-    
-
-    
 }
