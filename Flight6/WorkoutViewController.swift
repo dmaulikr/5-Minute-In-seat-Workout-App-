@@ -41,6 +41,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             // do something else
             pauseButton.setTitle("Pause", forState: .Normal)
             timerLabel.start()}}
+    
         let restTime = 1.0
         let workoutTimeLong = 3.0
         let workoutTimeShort = 1.0
