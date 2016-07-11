@@ -92,10 +92,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
-                timerLabel.text = "\(workoutTimeShort)"
-                
-                
-        }
+                timerLabel.text = "\(workoutTimeShort)"}
             
         else if wk.title == "Rest" {
             timerLabel.setCountDownTime(restTime);
