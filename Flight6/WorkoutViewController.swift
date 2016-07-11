@@ -32,6 +32,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
         let propertyToCheck = sender.currentTitle!
         
+        //set pause and resume button functions
         if sender.currentTitle == "Pause" {
             // do something
             pauseButton.setTitle("Resume", forState: .Normal)
