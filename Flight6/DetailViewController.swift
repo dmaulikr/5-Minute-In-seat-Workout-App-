@@ -30,7 +30,7 @@ class DetailViewController: UIViewController {
         backHome.layer.borderWidth = 1.0
         backHome.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         backHome.layer.cornerRadius = cornerRadius
-        
+        //??
         self.viewWillAppear(true)
                 
 
