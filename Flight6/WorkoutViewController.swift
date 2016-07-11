@@ -24,10 +24,10 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     //stop timer if user returns to home
     @IBAction func stopMZTimerLabel(sender: UIButton) {
         if sender.currentTitle == "Back to Homepage" {
-            
             timerLabel.pause()
         }
     }
+    
     @IBAction func pauseResume(sender: UIButton) {
         
         let propertyToCheck = sender.currentTitle!
