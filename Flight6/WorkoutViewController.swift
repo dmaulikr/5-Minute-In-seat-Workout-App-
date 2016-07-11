@@ -74,6 +74,8 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             buttonUI(backHome)
         }
     
+   
+    
         func buttonUI(button: UIButton) {
             button.backgroundColor = UIColor.clearColor()
             button.layer.borderWidth = 1.0
@@ -132,6 +134,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             timerLabel.pause();
             timerLabel.reset();
             performSegueWithIdentifier("endWorkout", sender: self)
+            viewDidAppear(true)
             println("Hello")
         }
         
@@ -141,5 +144,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             println("Workout done")
         }
     }
+    
+
     
 }
