@@ -10,7 +10,6 @@ import UIKit
 
 class HelpPage: UIViewController {
     
-    //buttons and labels from the storyboard
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var aboutDetail: UILabel!
     @IBOutlet weak var aboutLabel: UILabel!
