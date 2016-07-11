@@ -65,15 +65,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workouts = dataSource.getWorkOuts()
             workouts2 = dataSource.getWorkOuts2()
             workoutLabel.text = workouts2[0].title
-            
-            
             self.navigationController?.navigationBar.titleTextAttributes = ([NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 36)!, NSForegroundColorAttributeName: UIColor.whiteColor()])
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             buttonUI(pauseButton)
             buttonUI(backHome)
         }
-    
-   
     
         func buttonUI(button: UIButton) {
             button.backgroundColor = UIColor.clearColor()
@@ -86,7 +82,6 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         super.didReceiveMemoryWarning()
     }
 
-    
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
         let workoutRoutine = workouts2
         let wk = workouts2[index]
