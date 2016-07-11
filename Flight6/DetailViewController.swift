@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
         self.view.backgroundColor = workout.color
         self.detailText.text = workout.workoutText
         self.title = workout.title
-        
+        //set navbar text color
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
         
