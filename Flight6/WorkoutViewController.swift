@@ -32,18 +32,15 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
         let propertyToCheck = sender.currentTitle!
         
-                if sender.currentTitle == "Pause" {
-                    // do something
-                    pauseButton.setTitle("Resume", forState: .Normal)
-                    timerLabel.pause()
-                }
+        if sender.currentTitle == "Pause" {
+            // do something
+            pauseButton.setTitle("Resume", forState: .Normal)
+            timerLabel.pause()}
         
-                else if (sender.currentTitle == "Resume") {
-                    // do something else
-                    pauseButton.setTitle("Pause", forState: .Normal)
-                    timerLabel.start()
-                }
-    }
+        else if (sender.currentTitle == "Resume") {
+            // do something else
+            pauseButton.setTitle("Pause", forState: .Normal)
+            timerLabel.start()}}
         let restTime = 1.0
         let workoutTimeLong = 3.0
         let workoutTimeShort = 1.0
