@@ -16,12 +16,13 @@ class WorkoutDataSource{
     var workouts2:[Workout]
     
     init() {
+        
         workouts = []
         workouts2 = []
+        
         let wk1 = Workout(title: "Warm-Up", workoutText: "1. Circle your feet. 2. Circle your wrists. 3. Raise you arms up and down.",color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0) /* #005555 */)
         workouts.append(wk1)
         workouts2.append(wk1)
-        
         
         let rest1 = Workout(title: "Rest", workoutText: "Take deep breaths and calm your nerves.", color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0))
         workouts2.append(rest1)
