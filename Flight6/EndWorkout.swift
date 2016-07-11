@@ -20,6 +20,7 @@ class EndWorkout: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //set background color and style of "back to home" button
         homeBtn.backgroundColor = UIColor.clearColor()
         homeBtn.layer.borderWidth = 1.0
         homeBtn.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
