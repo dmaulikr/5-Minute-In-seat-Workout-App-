@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor(hue: 0.5733, saturation: 0.75, brightness: 0.68, alpha: 1.0) /* #346fae */
         //set color of navbar text
          self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
