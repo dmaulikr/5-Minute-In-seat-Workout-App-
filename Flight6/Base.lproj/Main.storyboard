@@ -395,6 +395,7 @@
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
                         <outlet property="timerLabel" destination="JBk-7z-Hk1" id="YOW-xc-y0K"/>
                         <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
+                        <segue destination="tJe-96-xSv" kind="modal" identifier="endWorkout" id="Wb5-jk-ayR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnd-Yf-3r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
