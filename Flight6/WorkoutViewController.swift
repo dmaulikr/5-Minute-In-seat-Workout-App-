@@ -88,9 +88,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         mainLabel.text = wk.title
         self.view.backgroundColor = wk.color
         self.navigationController?.navigationItem.title = wk.title
-        
-                
-                //use indices
+        //use indices
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
