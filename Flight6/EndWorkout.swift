@@ -12,6 +12,7 @@ class EndWorkout: UIViewController {
     
     //back to homepage
     @IBOutlet weak var homeBtn: UIButton!
+    //end workout label
     @IBOutlet weak var endWorkoutLabel: UILabel!
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
