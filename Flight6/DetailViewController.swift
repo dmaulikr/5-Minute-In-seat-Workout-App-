@@ -41,6 +41,7 @@ class DetailViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    //set navbar style to be translucent
     override func viewWillAppear(animated: Bool) {
         UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
         // Sets shadow (line below the bar) to a blank image
