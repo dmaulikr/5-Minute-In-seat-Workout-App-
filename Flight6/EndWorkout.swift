@@ -14,6 +14,7 @@ class EndWorkout: UIViewController {
     @IBOutlet weak var homeBtn: UIButton!
     //end workout label
     @IBOutlet weak var endWorkoutLabel: UILabel!
+    //border and corner settings for button
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
     override func viewDidLoad() {
