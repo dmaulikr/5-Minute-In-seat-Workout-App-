@@ -25,8 +25,7 @@ class DetailViewController: UIViewController {
         self.title = workout.title
         //set navbar text color
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        
-        
+        //set background color and style of "back to home" button
         backHome.backgroundColor = UIColor.clearColor()
         backHome.layer.borderWidth = 1.0
         backHome.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
