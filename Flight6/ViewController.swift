@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //set background color 
         view.backgroundColor = UIColor(hue: 0.5733, saturation: 0.75, brightness: 0.68, alpha: 1.0) /* #346fae */
          self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
