@@ -27,8 +27,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cornerRadius : CGFloat = 5.0
         
         
-         button.backgroundColor = UIColor.clearColor()
-                button.layer.borderWidth = 1.0
+        button.backgroundColor = UIColor.clearColor()
+        button.layer.borderWidth = 1.0
                 button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
                 button.layer.cornerRadius = cornerRadius
         
