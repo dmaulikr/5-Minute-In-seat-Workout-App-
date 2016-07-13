@@ -102,7 +102,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
                             let dvc = nvc?.topViewController as! DetailViewController
                             dvc.workout = tmp
                         }
-            
         }
     }
     
