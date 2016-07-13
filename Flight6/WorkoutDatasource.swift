@@ -13,7 +13,7 @@ class WorkoutDataSource{
     
     //arrays of Workout class instance
     var workouts:[Workout]
-    var workouts2:[Workout]
+    var timerWorkouts:[Workout]
     
     init() {
         
