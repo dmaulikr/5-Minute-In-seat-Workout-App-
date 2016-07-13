@@ -92,7 +92,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if(segue.identifier == "detailview"){
             let cell = sender as? WorkoutCell
-                        let indexPath = tableView.indexPathForCell(cell!)
+            let indexPath = tableView.indexPathForCell(cell!)
             let nvc = segue.destinationViewController as? UINavigationController
                         if let tmp = workouts[indexPath!.row] as? Workout{
                             let dvc = nvc?.topViewController as! DetailViewController
