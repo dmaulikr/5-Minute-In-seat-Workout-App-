@@ -108,7 +108,7 @@
                                 </state>
                                 <connections>
                                     <action selector="stopMZTimerLabel:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="32H-qs-Hdc"/>
-                                    <segue destination="1Hz-KP-xjB" kind="modal" id="XUg-XD-uIo"/>
+                                    <segue destination="1Hz-KP-xjB" kind="show" id="XUg-XD-uIo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,7 +144,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6de-7N-uTv">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Minute  Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
@@ -510,6 +510,6 @@
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nWm-Pc-ri1"/>
+        <segue reference="XUg-XD-uIo"/>
     </inferredMetricsTieBreakers>
 </document>
