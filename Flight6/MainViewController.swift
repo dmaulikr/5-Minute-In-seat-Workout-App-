@@ -59,7 +59,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-        func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
             return self.workouts.count
         }
     
