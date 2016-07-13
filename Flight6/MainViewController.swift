@@ -46,8 +46,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let color7 = UIColor.flatNavyBlueColorDark()
     
-        
-        
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
