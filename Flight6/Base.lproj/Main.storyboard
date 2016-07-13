@@ -428,11 +428,11 @@
                                     <segue destination="1Hz-KP-xjB" kind="show" id="nWm-Pc-ri1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Workout Ended!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-1N-0xj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Ended!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-1N-0xj">
                                 <rect key="frame" x="179" y="181" width="243" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="243" id="Z1Q-mY-hd7"/>
-                                    <constraint firstAttribute="height" constant="42" id="y6i-DX-QF6"/>
+                                    <constraint firstAttribute="width" constant="243" id="tq9-5j-sFc"/>
+                                    <constraint firstAttribute="height" constant="42" id="xey-mF-fag"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -442,9 +442,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2bi-Yc-QCK" firstAttribute="centerX" secondItem="Yqs-Mt-SDB" secondAttribute="centerX" id="1W8-88-rFm"/>
-                            <constraint firstItem="l5C-1N-0xj" firstAttribute="top" secondItem="co4-NU-4MH" secondAttribute="bottom" constant="161" id="McB-Ui-zBj"/>
+                            <constraint firstItem="l5C-1N-0xj" firstAttribute="top" secondItem="co4-NU-4MH" secondAttribute="bottom" constant="117" id="Z6O-6J-J7E"/>
                             <constraint firstItem="3Cq-G5-Bd1" firstAttribute="top" secondItem="2bi-Yc-QCK" secondAttribute="bottom" constant="46" id="den-Me-6tO"/>
-                            <constraint firstItem="l5C-1N-0xj" firstAttribute="centerX" secondItem="2bi-Yc-QCK" secondAttribute="centerX" id="ibt-3f-v55"/>
+                            <constraint firstItem="l5C-1N-0xj" firstAttribute="centerX" secondItem="2bi-Yc-QCK" secondAttribute="centerX" id="wAS-BY-ZxU"/>
                         </constraints>
                     </view>
                     <connections>
