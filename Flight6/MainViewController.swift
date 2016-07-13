@@ -62,7 +62,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return self.workouts.count
-        }
+    }
     
         func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
     
