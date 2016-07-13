@@ -28,7 +28,7 @@ class HelpPage: UIViewController {
         let startColor = UIColor.flatNavyBlueColorDark()
         let endColor = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         //set background gradient
-        setTableViewBackgroundGradient(color7, bottomColor: color1);
+        setTableViewBackgroundGradient(startColor, bottomColor: color1);
         //add labels and buttons on top of the main view
         view.addSubview(aboutLabel)
         view.addSubview(aboutDetail)
