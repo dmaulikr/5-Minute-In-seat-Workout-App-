@@ -66,9 +66,9 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
-            let gradientLocations = [0.0,1.0]
+        let gradientLocations = [0.0,1.0]
     
-            let gradientLayer = CAGradientLayer()
+        let gradientLayer = CAGradientLayer()
             gradientLayer.colors = gradientBackgroundColors
             gradientLayer.locations = gradientLocations
     
