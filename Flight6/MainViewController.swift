@@ -48,7 +48,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
-        setTableViewBackgroundGradient(topColor: color7, bottomColor: color1)
+        setTableViewBackgroundGradient(topColor:color7, bottomColor:color1)
         // Do any additional setup after loading the view, typically from a nib.
         
         // Do any additional setup after loading the view.
