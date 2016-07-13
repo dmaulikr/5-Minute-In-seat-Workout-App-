@@ -39,7 +39,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         }
     }
     
-    @IBAction func pauseResume(sender: UIButton) {
+    @IBAction func pauseResumeButton(sender: UIButton) {
         
         let propertyToCheck = sender.currentTitle!
         
