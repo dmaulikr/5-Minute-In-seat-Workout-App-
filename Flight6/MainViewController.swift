@@ -78,10 +78,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.backgroundView = backgroundView
     }
     
-    
-    
-    
-        func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
     
             let workout = self.workouts[indexPath.row] as? Workout
             let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as? WorkoutCell
