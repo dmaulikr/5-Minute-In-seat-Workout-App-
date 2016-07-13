@@ -71,7 +71,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             buttonUI(backHome)
         }
     
-        func buttonUI(button: UIButton) {
+        func setButtonStyle(button: UIButton) {
             button.backgroundColor = UIColor.clearColor()
             button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
