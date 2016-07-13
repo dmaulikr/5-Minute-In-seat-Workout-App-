@@ -109,7 +109,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        //self.tableView.contentInset = UIEdgeInsetsMake(0,0,55,0)
     }
     
     
