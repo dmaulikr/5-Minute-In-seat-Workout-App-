@@ -387,7 +387,7 @@
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
                         <outlet property="timerLabel" destination="JBk-7z-Hk1" id="YOW-xc-y0K"/>
                         <outlet property="workoutLabel" destination="xYd-Xc-NYi" id="MKh-RC-Jgu"/>
-                        <segue destination="tJe-96-xSv" kind="modal" identifier="endWorkout" id="Wb5-jk-ayR"/>
+                        <segue destination="tJe-96-xSv" kind="show" identifier="endWorkout" id="Wb5-jk-ayR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnd-Yf-3r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -419,7 +419,7 @@
                                 </state>
                                 <connections>
                                     <action selector="stopMZTimerLabel:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="2vm-QY-M7k"/>
-                                    <segue destination="1Hz-KP-xjB" kind="modal" id="nWm-Pc-ri1"/>
+                                    <segue destination="1Hz-KP-xjB" kind="show" id="nWm-Pc-ri1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Ended!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-1N-0xj">
@@ -510,6 +510,6 @@
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aoQ-ct-G8n"/>
+        <segue reference="nWm-Pc-ri1"/>
     </inferredMetricsTieBreakers>
 </document>
