@@ -33,7 +33,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         button.layer.cornerRadius = cornerRadius
         
         let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
-                let numberOfRows = tableView.numberOfRowsInSection(0)
+        let numberOfRows = tableView.numberOfRowsInSection(0)
         
          tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
         
