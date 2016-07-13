@@ -27,9 +27,9 @@ class EndWorkout: UIViewController {
         homeBtn.layer.cornerRadius = cornerRadius
         //start and end color of gradient
         let startColor = UIColor.flatNavyBlueColorDark()
-        let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
+        let endColor = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         //set gradient
-        setTableViewBackgroundGradient(startColor, bottomColor: color1);
+        setTableViewBackgroundGradient(startColor, bottomColor: endColor);
         //add button and workout label
         view.addSubview(homeBtn)
         view.addSubview(endWorkoutLabel)
