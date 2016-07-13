@@ -80,7 +80,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         let workout = self.workouts[indexPath.row] as? Workout
-            let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as? WorkoutCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as? WorkoutCell
             cell!.textCellLabel?.text = workout?.title
             cell!.backgroundColor = workout?.color
             cell!.countLabel.text = "\(indexPath.row+1)"
