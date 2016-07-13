@@ -87,7 +87,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell!.selectionStyle = UITableViewCellSelectionStyle.None
         cell!.backgroundColor = UIColor.clearColor()
         return cell!
-        }
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if(segue.identifier == "detailview"){
