@@ -17,6 +17,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var button: UIButton!
     let manager = WorkoutDataSource()
     var workouts = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
