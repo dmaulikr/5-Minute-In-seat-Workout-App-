@@ -93,6 +93,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             cell!.backgroundColor = UIColor.clearColor()
             return cell!
         }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if(segue.identifier == "detailview"){
             let cell = sender as? WorkoutCell
