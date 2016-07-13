@@ -76,7 +76,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let backgroundView = UIView(frame: view.bounds)
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         tableView.backgroundView = backgroundView
-        }
+    }
     
     
     
