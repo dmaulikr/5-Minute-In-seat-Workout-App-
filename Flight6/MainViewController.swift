@@ -97,7 +97,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             if let tmp = workouts[indexPath!.row] as? Workout{
                 let dvc = nvc?.topViewController as!DetailViewController
                 dvc.workout = tmp
-                        }
+            }
         }
     }
     
