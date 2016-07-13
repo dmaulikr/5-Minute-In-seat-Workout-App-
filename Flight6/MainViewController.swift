@@ -35,7 +35,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 let numberOfRows = tableView.numberOfRowsInSection(0)
         
          tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
-       // buttonView.backgroundColor = UIColor.clearColor()
         
         let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         let color2 = UIColor(hue: 0.0167, saturation: 0.25, brightness: 0.95, alpha: 1.0) /* #ffb1b1 */
