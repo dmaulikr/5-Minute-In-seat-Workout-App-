@@ -108,8 +108,4 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     }
-    
-    
-    
-    
 }
