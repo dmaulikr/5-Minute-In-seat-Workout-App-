@@ -29,8 +29,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         button.backgroundColor = UIColor.clearColor()
         button.layer.borderWidth = 1.0
-                button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
-                button.layer.cornerRadius = cornerRadius
+        button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
+        button.layer.cornerRadius = cornerRadius
         
                 let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
                 let numberOfRows = tableView.numberOfRowsInSection(0)
