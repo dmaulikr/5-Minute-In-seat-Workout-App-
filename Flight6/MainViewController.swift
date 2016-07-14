@@ -14,6 +14,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var button: UIButton!
+    
+    //constants
     let manager = WorkoutDataSource()
     var workouts = []
     
