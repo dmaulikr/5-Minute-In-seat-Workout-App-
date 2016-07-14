@@ -30,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         win.backgroundColor = UIColor.flatNavyBlueColorDark()
         
         return true
-        
     }
 
     func applicationWillResignActive(application: UIApplication) {
