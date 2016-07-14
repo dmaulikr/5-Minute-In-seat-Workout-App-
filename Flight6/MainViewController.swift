@@ -63,7 +63,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return self.workouts.count
     }
     
-    func setTableViewBackgroundGradient(topColor: UIColor, bottomColor: UIColor){
+    func setTableViewBackgroundGradient(firstColor topColor: UIColor, bottomColor: UIColor){
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
         let gradientLocations = [0.0,1.0]
     
