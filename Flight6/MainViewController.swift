@@ -17,6 +17,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     //constants
     let manager = WorkoutDataSource()
+    
+    //variables
     var workouts = []
     
     override func viewDidLoad() {
