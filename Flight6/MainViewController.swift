@@ -72,11 +72,12 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
         let gradientLocations = [0.0,1.0]
         let gradientLayer = CAGradientLayer()
+        let backgroundView = UIView(frame: view.bounds)
+        
         gradientLayer.colors = gradientBackgroundColors
         gradientLayer.locations = gradientLocations
-    
         gradientLayer.frame = view.bounds
-        let backgroundView = UIView(frame: view.bounds)
+        
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         tableView.backgroundView = backgroundView
     }
