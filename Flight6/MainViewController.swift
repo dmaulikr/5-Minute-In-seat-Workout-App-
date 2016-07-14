@@ -26,6 +26,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.workouts = manager.getWorkOuts()
+        //constants
         let borderAlpha : CGFloat = 0.7
         let cornerRadius : CGFloat = 5.0
         
