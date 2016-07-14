@@ -21,6 +21,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     @IBOutlet weak var nextUp: UILabel!
     @IBOutlet weak var progressTimer: JWGCircleCounter!
     
+    //constants
     let restTime = 1.0
     let workoutTimeLong = 3.0
     let workoutTimeShort = 1.0
