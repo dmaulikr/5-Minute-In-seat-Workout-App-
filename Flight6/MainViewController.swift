@@ -32,15 +32,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cornerRadius : CGFloat = 5.0
         let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
         let numberOfRows = tableView.numberOfRowsInSection(0)
-        
-        
-        
         let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
-        let color2 = UIColor(hue: 0.0167, saturation: 0.25, brightness: 0.95, alpha: 1.0) /* #ffb1b1 */
-        let color3 = UIColor(hue: 0.2528, saturation: 0.11, brightness: 0.85, alpha: 1.0) /* #f3bbb4 */
-        let color4 =  UIColor(hue: 0.3833, saturation: 0.21, brightness: 0.91, alpha: 1.0) /* #cedbc2 */
-        let color5 = UIColor(hue: 0.4417, saturation: 0.62, brightness: 0.97, alpha: 1.0) /* #b7eac7 */
-        let color6 = UIColor(hue: 0.4528, saturation: 0.91, brightness: 0.81, alpha: 1.0) /* #12d19e */ /* #5ef9c3 */
         let color7 = UIColor.flatNavyBlueColorDark()
         
         button.backgroundColor = UIColor.clearColor()
