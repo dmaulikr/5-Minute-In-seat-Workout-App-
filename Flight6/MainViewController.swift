@@ -77,7 +77,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         gradientLayer.colors = gradientBackgroundColors
         gradientLayer.locations = gradientLocations
         gradientLayer.frame = view.bounds
-        
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         tableView.backgroundView = backgroundView
     }
