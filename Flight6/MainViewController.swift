@@ -22,6 +22,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var workouts = []
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
@@ -74,6 +75,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+        
         let workout = self.workouts[indexPath.row] as? Workout
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as? WorkoutCell
         cell!.textCellLabel?.text = workout?.title
