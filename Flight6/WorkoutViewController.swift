@@ -25,11 +25,13 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     let restTime = 1.0
     let workoutTimeLong = 3.0
     let workoutTimeShort = 1.0
-    var index = 0;
-    var count = 0;
     let dataSource = WorkoutDataSource()
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
+    
+    //variables
+    var index = 0;
+    var count = 0;
     var workouts: [Workout]!
     var workouts2: [Workout]!
     

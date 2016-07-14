@@ -12,7 +12,6 @@ import ChameleonFramework
 class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-   
     @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var button: UIButton!
     let manager = WorkoutDataSource()
