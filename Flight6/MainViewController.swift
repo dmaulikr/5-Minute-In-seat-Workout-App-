@@ -26,20 +26,14 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.workouts = manager.getWorkOuts()
+        
         //constants
         let borderAlpha : CGFloat = 0.7
         let cornerRadius : CGFloat = 5.0
-        
-        
-        button.backgroundColor = UIColor.clearColor()
-        button.layer.borderWidth = 1.0
-        button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
-        button.layer.cornerRadius = cornerRadius
-        
         let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
         let numberOfRows = tableView.numberOfRowsInSection(0)
         
-         tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
+        
         
         let color1 = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         let color2 = UIColor(hue: 0.0167, saturation: 0.25, brightness: 0.95, alpha: 1.0) /* #ffb1b1 */
@@ -48,7 +42,12 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let color5 = UIColor(hue: 0.4417, saturation: 0.62, brightness: 0.97, alpha: 1.0) /* #b7eac7 */
         let color6 = UIColor(hue: 0.4528, saturation: 0.91, brightness: 0.81, alpha: 1.0) /* #12d19e */ /* #5ef9c3 */
         let color7 = UIColor.flatNavyBlueColorDark()
-    
+        
+        button.backgroundColor = UIColor.clearColor()
+        button.layer.borderWidth = 1.0
+        button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
+        button.layer.cornerRadius = cornerRadius
+        tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         //figure out???
@@ -68,9 +67,10 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func setTableViewBackgroundGradient(firstColor topColor: UIColor, bottomColor: UIColor){
+        
+        //constants
         let gradientBackgroundColors = [topColor.CGColor, bottomColor.CGColor]
         let gradientLocations = [0.0,1.0]
-    
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = gradientBackgroundColors
         gradientLayer.locations = gradientLocations
