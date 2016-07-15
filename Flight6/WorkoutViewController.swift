@@ -75,6 +75,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         }
     
         func setButtonStyleOf(button: UIButton) {
+            
             button.backgroundColor = UIColor.clearColor()
             button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
@@ -86,11 +87,14 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     }
 
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
+        
         let workoutRoutine = workouts2
         let wk = workouts2[index]
+        
         mainLabel.text = wk.title
         self.view.backgroundColor = wk.color
         self.navigationController?.navigationItem.title = wk.title
+        
         //use indices
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
