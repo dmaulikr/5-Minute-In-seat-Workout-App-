@@ -37,9 +37,11 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     
     //stop timer if user returns to home
     @IBAction func stopMZTimerLabel(sender: UIButton) {
+        
         if sender.currentTitle == "Back to Homepage" {
             timerLabel.pause()
         }
+        
     }
     
     @IBAction func pauseResumeButton(sender: UIButton) {
@@ -50,14 +52,18 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         if sender.currentTitle == "Pause" {
             // do something
             pauseButton.setTitle("Resume", forState: .Normal)
-            timerLabel.pause()}
+            timerLabel.pause()
+        }
         
         else if (sender.currentTitle == "Resume") {
             // do something else
             pauseButton.setTitle("Pause", forState: .Normal)
-            timerLabel.start()}}
+            timerLabel.start()
+        }
+    }
     
         override func viewDidLoad() {
+            
             super.viewDidLoad()
             timerLabel.delegate = self
             timerLabel.timerType = MZTimerLabelTypeTimer
@@ -72,6 +78,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
              view.backgroundColor = UIColor.flatNavyBlueColorDark()
             setButtonStyleOf(pauseButton)
             setButtonStyleOf(backHome)
+            
         }
     
         func setButtonStyleOf(button: UIButton) {
@@ -80,10 +87,12 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
             button.layer.cornerRadius = cornerRadius
+            
         }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
     }
 
     func timerLabel(timerLabel: MZTimerLabel!, finshedCountDownTimerWithTime countTime: NSTimeInterval) {
@@ -99,37 +108,44 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         if wk.title == "Neck Rolls" || wk.title == "Feet Circles" ||
             wk.title == "Shoulder Rolls" || wk.title == "Trunk Twister" || wk.title == "Warm-Up"  {
                 timerLabel.setCountDownTime(workoutTimeShort);
-                timerLabel.text = "\(workoutTimeShort)"}
+                timerLabel.text = "\(workoutTimeShort)"
+        }
             
         else if wk.title == "Rest" {
             timerLabel.setCountDownTime(restTime);
-            timerLabel.text = "\(restTime)"}
+            timerLabel.text = "\(restTime)"
+        }
         
         else {
             timerLabel.setCountDownTime(workoutTimeShort);
-            timerLabel.text = "\(workoutTimeLong)"}
+            timerLabel.text = "\(workoutTimeLong)"
+        }
         
         if (index+1 < workouts2.endIndex) {
              workoutLabel.text = workouts2[index+1].title
             println(index + 1)
             println("End")
-            println(workouts2.endIndex)}
+            println(workouts2.endIndex)
+        }
         
         else {
             workoutLabel.text = "End Workout"}
         
         if (index < workouts2.endIndex-1) {
-            index++;}
+            index++;
+        }
         
         else {
             timerLabel.pause();
             timerLabel.reset();
             performSegueWithIdentifier("endWorkout", sender: self)
-            return;}
+            return;
+        }
         
         if !((index / 2) > workouts.count) {
             timerLabel.start()
         } else {
-            println("Workout done")}
+            println("Workout done")
+        }
     }
 }
