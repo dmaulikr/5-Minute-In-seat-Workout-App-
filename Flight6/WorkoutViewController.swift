@@ -123,9 +123,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
         if (index+1 < workouts2.endIndex) {
              workoutLabel.text = workouts2[index+1].title
-            println(index + 1)
-            println("End")
-            println(workouts2.endIndex)
+            print(index + 1)
+            print("End")
+            print(workouts2.endIndex)
         }
         
         else {
