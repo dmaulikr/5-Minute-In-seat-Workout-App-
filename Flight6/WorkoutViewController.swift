@@ -145,7 +145,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         if !((index / 2) > workouts.count) {
             timerLabel.start()
         } else {
-            println("Workout done")
+            print("Workout done")
         }
     }
 }
