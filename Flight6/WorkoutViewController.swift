@@ -132,7 +132,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             workoutLabel.text = "End Workout"}
         
         if (index < workouts2.endIndex-1) {
-            index++;
+            index = index + 1;
         }
         
         else {
