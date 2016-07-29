@@ -71,6 +71,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         gradientLayer.frame = view.bounds
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         tableView.backgroundView = backgroundView
+        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
