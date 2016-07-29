@@ -238,7 +238,7 @@
                                 <sections/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2Y-Jt-N4t">
-                                <rect key="frame" x="534" y="20" width="50" height="50"/>
+                                <rect key="frame" x="496" y="20" width="50" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-vb-lQq">
                                         <rect key="frame" x="0.0" y="0.0" width="45" height="38"/>
@@ -254,16 +254,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="s2Y-Jt-N4t" secondAttribute="bottom" constant="466" id="2j5-xD-Nai"/>
                             <constraint firstItem="9G5-vN-swJ" firstAttribute="top" secondItem="Ehy-LN-LKm" secondAttribute="bottom" constant="29" id="6x4-oW-qL8"/>
-                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="leading" secondItem="Ehy-LN-LKm" secondAttribute="trailing" constant="86" id="IX2-lC-ueH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="s2Y-Jt-N4t" secondAttribute="trailing" constant="-4" id="Mkf-Hx-GKX"/>
+                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="leading" secondItem="Ehy-LN-LKm" secondAttribute="trailing" constant="48" id="IDg-ss-Ld2"/>
                             <constraint firstItem="Ehy-LN-LKm" firstAttribute="centerX" secondItem="9G5-vN-swJ" secondAttribute="centerX" id="PPV-cJ-PJ6"/>
-                            <constraint firstAttribute="bottom" secondItem="s2Y-Jt-N4t" secondAttribute="bottom" constant="466" id="RIz-Xu-KCK"/>
-                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="top" secondItem="6de-7N-uTv" secondAttribute="top" constant="20" symbolic="YES" id="hUI-fE-dzQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s2Y-Jt-N4t" secondAttribute="trailing" constant="34" id="VM7-dV-Bee"/>
                             <constraint firstItem="9G5-vN-swJ" firstAttribute="bottom" secondItem="PWa-G0-Vkr" secondAttribute="top" id="is0-c5-kUT"/>
                             <constraint firstAttribute="trailing" secondItem="9G5-vN-swJ" secondAttribute="trailing" id="j6N-ap-Z8Q"/>
                             <constraint firstItem="9G5-vN-swJ" firstAttribute="leading" secondItem="6de-7N-uTv" secondAttribute="leading" id="kCi-zJ-DNJ"/>
                             <constraint firstItem="Ehy-LN-LKm" firstAttribute="top" secondItem="sUI-Pf-PS5" secondAttribute="bottom" constant="37" id="rni-uL-1dA"/>
+                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="top" secondItem="6de-7N-uTv" secondAttribute="top" constant="20" symbolic="YES" id="wNd-p1-Obw"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
