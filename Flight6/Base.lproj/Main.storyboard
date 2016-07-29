@@ -139,10 +139,10 @@
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6de-7N-uTv">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="9G5-vN-swJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="9G5-vN-swJ">
                                 <rect key="frame" x="0.0" y="183" width="600" height="353"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="erz-F6-vGk">
@@ -228,7 +228,7 @@
                                 <sections/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2Y-Jt-N4t">
-                                <rect key="frame" x="496" y="20" width="50" height="50"/>
+                                <rect key="frame" x="496" y="20" width="50" height="114"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-vb-lQq">
                                         <rect key="frame" x="0.0" y="0.0" width="45" height="38"/>
@@ -236,12 +236,12 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="AMe-Ar-UEG" kind="show" id="f2M-TL-9xb"/>
+                                            <segue destination="n7h-Hc-Gmz" kind="show" id="qcK-k9-94w"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Minute Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5 Minute Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
                                 <rect key="frame" x="153" y="37" width="295" height="117"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="295" id="4T4-jq-o7I"/>
@@ -505,5 +505,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="XUg-XD-uIo"/>
+        <segue reference="qcK-k9-94w"/>
     </inferredMetricsTieBreakers>
 </document>
