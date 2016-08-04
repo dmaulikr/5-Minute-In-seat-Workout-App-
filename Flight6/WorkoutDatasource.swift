@@ -49,7 +49,7 @@ class WorkoutDataSource{
         workouts.append(wk5)
         timerWorkouts.append(wk5)
         
-        let wk6 = Workout(title: "Shoulder Rolls", workoutText: "Roll your shoulders in the clockwise direction for 15 secs and switch to counter-clockwise for the next 15 secs.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
+        let wk6 = Workout(title: "Shoulder Rolls", workoutText: "Roll your shoulders clockwise for 15 sec, then anti-clockwise.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
         workouts.append(wk6)
         timerWorkouts.append(wk6)
         
