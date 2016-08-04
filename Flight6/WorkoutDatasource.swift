@@ -34,7 +34,7 @@ class WorkoutDataSource{
         let rest2 = Workout(title: "Rest", workoutText: "Remain seated and breathe slowly.", color: UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
         timerWorkouts.append(rest2)
         
-        let wk3 = Workout(title: "Stand on fists", workoutText: "1. Put your fists by your side with the knuckles facing down on the seat. 2. Lift yourself up in the seat on your fists without lifting feet.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.46, alpha: 1.0) /* #007777 */)
+        let wk3 = Workout(title: "Stand on fists", workoutText: "1. Put your fists by your side with the knuckles facing down on the seat. 2. Lift yourself up in the seat on your fists without lifting feet. 3. Then sit back down and repeat", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.46, alpha: 1.0) /* #007777 */)
         workouts.append(wk3)
         timerWorkouts.append(wk3)
         
@@ -56,14 +56,14 @@ class WorkoutDataSource{
         let rest4 = Workout(title: "Rest", workoutText: "Remain seated and breathe slowly.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
         timerWorkouts.append(rest4)
         
-        let wk7 = Workout(title: "Stand on Fists (Harder)", workoutText: "Put your hands on the handles of your seat and lift yourself.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
+        let wk7 = Workout(title: "Stand on Fists (Advanced)", workoutText: "1. Put your fists on the seat handles. 2. Lift yourself up in the seat without lifting feet.3. Then sit back down and repeat", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
         workouts.append(wk7)
         timerWorkouts.append(wk7)
         
         let rest5 = Workout(title: "Rest", workoutText: "Remain seated and breathe slowly.", color:  UIColor(hue: 0.7861, saturation: 0.6, brightness: 0.33, alpha: 1.0) /* #472255 */)
         timerWorkouts.append(rest5)
         
-        let wk8 = Workout(title: "Trunk Twister", workoutText: "Twist yourself.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
+        let wk8 = Workout(title: "Trunk Twister", workoutText: "Twist your torso to the left and right while remaining seated.", color:  UIColor(hue: 0.8722, saturation: 0.91, brightness: 0.37, alpha: 1.0) /* #5f084c */)
         workouts.append(wk8)
         timerWorkouts.append(wk8)
     }
