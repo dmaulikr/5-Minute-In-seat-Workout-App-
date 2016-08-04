@@ -27,7 +27,7 @@ class WorkoutDataSource{
         let rest1 = Workout(title: "Rest", workoutText: "Remain seated and breathe slowly.", color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0))
         timerWorkouts.append(rest1)
         
-        let wk2 = Workout(title: "Leg Lifts", workoutText: "Lift your legs up without touching the ground.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
+        let wk2 = Workout(title: "Leg Lifts", workoutText: "1. Pull your knees up to your chest. 2. Then put your legs down without touching your feet to the ground. 3. Repeat in an up and down motion.", color:  UIColor(hue: 0.5, saturation: 1, brightness: 0.4, alpha: 1.0) /* #006666 */)
         workouts.append(wk2)
         timerWorkouts.append(wk2)
         
