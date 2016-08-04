@@ -317,7 +317,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="pauseResume:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="rB7-Lr-uCt"/>
+                                    <action selector="pauseResumeButton:" destination="jTJ-ue-7Fw" eventType="touchUpInside" id="gIL-vS-pip"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-Xc-NYi">
@@ -504,6 +504,6 @@
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XUg-XD-uIo"/>
+        <segue reference="aoQ-ct-G8n"/>
     </inferredMetricsTieBreakers>
 </document>

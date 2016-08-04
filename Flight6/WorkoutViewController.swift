@@ -22,9 +22,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     @IBOutlet weak var progressTimer: JWGCircleCounter!
     
     //constants
-    let restTime = 1.0
-    let workoutTimeLong = 3.0
-    let workoutTimeShort = 1.0
+    let restTime = 5.0
+    let workoutTimeLong = 5.0
+    let workoutTimeShort = 5.0
     let dataSource = WorkoutDataSource()
     let borderAlpha : CGFloat = 0.7
     let cornerRadius : CGFloat = 5.0
@@ -36,7 +36,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
     var workouts2: [Workout]!
     
     //stop timer if user returns to home
-    @IBAction func stopMZTimerLabel(sender: UIButton) {
+    @IBAction func stopMZTimerLabel(sender: UIButton!) {
         
         if sender.currentTitle == "Back to Homepage" {
             timerLabel.pause()
@@ -44,9 +44,9 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         
     }
     
-    @IBAction func pauseResumeButton(sender: UIButton) {
+    @IBAction func pauseResumeButton(sender: AnyObject) {
         
-        let propertyToCheck = sender.currentTitle!
+        //let propertyToCheck = sender.currentTitle!
         
         //set pause and resume button functions
         if sender.currentTitle == "Pause" {
@@ -54,13 +54,14 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
             pauseButton.setTitle("Resume", forState: .Normal)
             timerLabel.pause()
         }
-        
+            
         else if (sender.currentTitle == "Resume") {
             // do something else
             pauseButton.setTitle("Pause", forState: .Normal)
             timerLabel.start()
         }
     }
+   
     
         override func viewDidLoad() {
             
