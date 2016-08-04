@@ -20,7 +20,7 @@ class WorkoutDataSource{
         workouts = []
         timerWorkouts = []
         
-        let wk1 = Workout(title: "Warm-Up", workoutText: "1. Raise your hands up and down while clenching and unclenching fists 2. Circle your wrists. 3. Raise you arms up and down.",color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0) /* #005555 */)
+        let wk1 = Workout(title: "Warm-Up", workoutText: "1. Raise your hands up and down while clenching and unclenching fists 2. Rotate your fists and stretch your legs and feet 3. Sit up perfectly straight and stretch and relax your torso alternately.",color: UIColor(hue: 0.5, saturation: 1, brightness: 0.33, alpha: 1.0) /* #005555 */)
         workouts.append(wk1)
         timerWorkouts.append(wk1)
         
