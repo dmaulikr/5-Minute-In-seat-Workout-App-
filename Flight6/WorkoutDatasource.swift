@@ -45,7 +45,7 @@ class WorkoutDataSource{
         workouts.append(wk4)
         timerWorkouts.append(wk4)
         
-        let wk5 = Workout(title: "Feet Circles", workoutText: "Circle your feet in the clockwise direction for 15 secs and switch to counter-clockwise for the next 15 secs.", color:  UIColor(hue: 0.6194, saturation: 0.5, brightness: 0.36, alpha: 1.0) /* #2f3c5e */)
+        let wk5 = Workout(title: "Feet Circles", workoutText: "Pull your knees up and circle your feet clockwise for 15 sec, then anti clockwise.", color:  UIColor(hue: 0.6194, saturation: 0.5, brightness: 0.36, alpha: 1.0) /* #2f3c5e */)
         workouts.append(wk5)
         timerWorkouts.append(wk5)
         
