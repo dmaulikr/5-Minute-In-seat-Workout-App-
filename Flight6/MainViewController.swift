@@ -39,7 +39,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         button.layer.cornerRadius = cornerRadius
         //tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
-        //view.backgroundColor = UIColor.flatNavyBlueColorDark()
+        view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         //figure out???
         setTableViewBackgroundGradient(firstColor:startColor, bottomColor:endColor)
