@@ -26,9 +26,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.workouts = manager.getWorkOuts()
-        
-        //constants
+        self.workouts = manager.getWorkOuts()//constants
+        //view.translatesAutoresizingMaskIntoConstraints = false;
         let borderAlpha : CGFloat = 0.7, cornerRadius : CGFloat = 5.0
         //let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
         let numberOfRows = tableView.numberOfRowsInSection(0)
