@@ -351,7 +351,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNn-AJ-lcI">
-                                <rect key="frame" x="95" y="166" width="411" height="230"/>
+                                <rect key="frame" x="95" y="166" width="411" height="252"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -363,15 +363,15 @@
                             <constraint firstItem="jk1-d7-tWM" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="ANg-aq-He7"/>
                             <constraint firstItem="xYd-Xc-NYi" firstAttribute="top" secondItem="jk1-d7-tWM" secondAttribute="bottom" id="Avo-qJ-vSZ"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" id="EDT-yj-xqY"/>
-                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="top" secondItem="PNn-AJ-lcI" secondAttribute="bottom" constant="43" id="Gma-SN-hJt"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="Og9-oV-p63"/>
+                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="top" secondItem="PNn-AJ-lcI" secondAttribute="bottom" constant="21" id="PWt-RD-Gq2"/>
                             <constraint firstItem="tGN-Rh-Umz" firstAttribute="top" secondItem="JBk-7z-Hk1" secondAttribute="bottom" constant="73" id="Q4k-bo-JTv"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="NRw-BG-j9b" secondAttribute="leading" id="Tbc-rx-gyn"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="b4D-8x-tdV"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="top" secondItem="xYd-Xc-NYi" secondAttribute="bottom" id="Xvt-ZP-8ZO"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="top" secondItem="Cvp-KN-Dit" secondAttribute="bottom" id="b6V-vu-ueE"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="JBk-7z-Hk1" secondAttribute="centerX" id="d40-Ms-5s1"/>
                             <constraint firstItem="NRw-BG-j9b" firstAttribute="baseline" secondItem="fIB-Ah-gEl" secondAttribute="baseline" id="h9F-En-Vfm"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="top" secondItem="xYd-Xc-NYi" secondAttribute="bottom" id="nSO-Le-1pD"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" constant="75" id="pkY-LL-0ye"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" constant="75" id="jci-li-Cvk"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="JBk-7z-Hk1" secondAttribute="centerX" id="kLL-8e-2IS"/>
                             <constraint firstItem="jk1-d7-tWM" firstAttribute="top" secondItem="XCc-9Y-N1a" secondAttribute="bottom" constant="1" id="rTG-vI-APc"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="trailing" secondItem="fIB-Ah-gEl" secondAttribute="trailing" id="sK4-AW-Fjp"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="trailing" secondItem="F3P-v6-CiJ" secondAttribute="trailingMargin" id="sin-L4-QRF"/>
