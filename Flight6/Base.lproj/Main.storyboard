@@ -65,7 +65,7 @@
         <!--Help Page-->
         <scene sceneID="scg-G1-3lD">
             <objects>
-                <viewController id="n7h-Hc-Gmz" customClass="HelpPage" customModule="Flight6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="n7h-Hc-Gmz" customClass="HelpPage" customModule="Flight6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Iu4-u2-0tX"/>
                         <viewControllerLayoutGuide type="bottom" id="5zK-g2-Txs"/>
@@ -128,12 +128,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OW3-6H-eTv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-112" y="-1363"/>
+            <point key="canvasLocation" x="700" y="-1363"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="elb-H1-ve0">
             <objects>
-                <viewController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" id="1Hz-KP-xjB" customClass="MainViewController" customModule="Flight6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Hz-KP-xjB" customClass="MainViewController" customModule="Flight6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sUI-Pf-PS5"/>
                         <viewControllerLayoutGuide type="bottom" id="PWa-G0-Vkr"/>
@@ -227,43 +227,43 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2Y-Jt-N4t">
-                                <rect key="frame" x="496" y="20" width="50" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-vb-lQq">
-                                        <rect key="frame" x="0.0" y="0.0" width="45" height="38"/>
-                                        <state key="normal" image="noun_70964_cc.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="AMe-Ar-UEG" kind="show" id="f2M-TL-9xb"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Minute Inflight Workout" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-LN-LKm" userLabel="5 Minute  Inflight Workout">
                                 <rect key="frame" x="153" y="37" width="295" height="117"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="295" id="4T4-jq-o7I"/>
-                                    <constraint firstAttribute="height" constant="117" id="kgr-Bc-tQ5"/>
+                                    <constraint firstAttribute="height" constant="117" id="J2o-0L-1VB"/>
+                                    <constraint firstAttribute="width" constant="295" id="kYS-7h-1Sa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2Y-Jt-N4t">
+                                <rect key="frame" x="496" y="20" width="50" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-vb-lQq">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="42"/>
+                                        <state key="normal" image="noun_70964_cc.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="LN6-RC-fFM" kind="show" id="Ywl-hS-ohI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="s2Y-Jt-N4t" secondAttribute="bottom" constant="466" id="2j5-xD-Nai"/>
-                            <constraint firstItem="9G5-vN-swJ" firstAttribute="top" secondItem="Ehy-LN-LKm" secondAttribute="bottom" constant="29" id="6x4-oW-qL8"/>
-                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="leading" secondItem="Ehy-LN-LKm" secondAttribute="trailing" constant="48" id="IDg-ss-Ld2"/>
-                            <constraint firstItem="Ehy-LN-LKm" firstAttribute="centerX" secondItem="9G5-vN-swJ" secondAttribute="centerX" id="PPV-cJ-PJ6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="s2Y-Jt-N4t" secondAttribute="trailing" constant="34" id="VM7-dV-Bee"/>
-                            <constraint firstItem="9G5-vN-swJ" firstAttribute="bottom" secondItem="PWa-G0-Vkr" secondAttribute="top" id="is0-c5-kUT"/>
-                            <constraint firstAttribute="trailing" secondItem="9G5-vN-swJ" secondAttribute="trailing" id="j6N-ap-Z8Q"/>
-                            <constraint firstItem="9G5-vN-swJ" firstAttribute="leading" secondItem="6de-7N-uTv" secondAttribute="leading" id="kCi-zJ-DNJ"/>
-                            <constraint firstItem="Ehy-LN-LKm" firstAttribute="top" secondItem="sUI-Pf-PS5" secondAttribute="bottom" constant="37" id="rni-uL-1dA"/>
-                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="top" secondItem="6de-7N-uTv" secondAttribute="top" constant="20" symbolic="YES" id="wNd-p1-Obw"/>
+                            <constraint firstItem="9G5-vN-swJ" firstAttribute="bottom" secondItem="PWa-G0-Vkr" secondAttribute="top" id="5Ng-OQ-QTp"/>
+                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="leading" secondItem="Ehy-LN-LKm" secondAttribute="trailing" constant="48" id="AtU-PD-mjE"/>
+                            <constraint firstItem="Ehy-LN-LKm" firstAttribute="centerX" secondItem="9G5-vN-swJ" secondAttribute="centerX" id="Fc3-Jz-dil"/>
+                            <constraint firstAttribute="bottom" secondItem="s2Y-Jt-N4t" secondAttribute="bottom" constant="466" id="Scg-J6-WUl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s2Y-Jt-N4t" secondAttribute="trailing" constant="34" id="VGz-hf-Mci"/>
+                            <constraint firstItem="Ehy-LN-LKm" firstAttribute="top" secondItem="sUI-Pf-PS5" secondAttribute="bottom" constant="37" id="eRe-hL-Pmv"/>
+                            <constraint firstItem="9G5-vN-swJ" firstAttribute="leading" secondItem="6de-7N-uTv" secondAttribute="leading" id="fqT-Na-1HU"/>
+                            <constraint firstItem="9G5-vN-swJ" firstAttribute="top" secondItem="Ehy-LN-LKm" secondAttribute="bottom" constant="29" id="meb-Qe-Kzm"/>
+                            <constraint firstAttribute="trailing" secondItem="9G5-vN-swJ" secondAttribute="trailing" id="qf8-Ga-pyK"/>
+                            <constraint firstItem="s2Y-Jt-N4t" firstAttribute="top" secondItem="6de-7N-uTv" secondAttribute="top" constant="20" symbolic="YES" id="rn8-8D-EZ9"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -481,29 +481,28 @@
             <point key="canvasLocation" x="-1085.625" y="189.08450704225345"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Uf4-XU-MgY">
+        <scene sceneID="FgQ-AW-iw2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AMe-Ar-UEG" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LN6-RC-fFM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="iY9-In-Veo"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VpK-VO-FjR">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4rh-2x-9W7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="n7h-Hc-Gmz" kind="relationship" relationship="rootViewController" id="F84-7V-YRD"/>
+                        <segue destination="n7h-Hc-Gmz" kind="relationship" relationship="rootViewController" id="xj0-sc-MGc"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vi6-Yf-oIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZf-dO-fQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-924" y="-1363"/>
+            <point key="canvasLocation" x="-112" y="-1363"/>
         </scene>
     </scenes>
     <resources>
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aoQ-ct-G8n"/>
+        <segue reference="XUg-XD-uIo"/>
     </inferredMetricsTieBreakers>
 </document>

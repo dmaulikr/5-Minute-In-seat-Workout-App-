@@ -30,7 +30,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         //constants
         let borderAlpha : CGFloat = 0.7, cornerRadius : CGFloat = 5.0
-        let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
+        //let heightOfVisibleTableViewArea = tableView.bounds.height - topLayoutGuide.length - bottomLayoutGuide.length
         let numberOfRows = tableView.numberOfRowsInSection(0)
         let startColor = UIColor(hue: 0.9528, saturation: 0.4, brightness: 1, alpha: 1.0) /* #ff759d */
         let endColor = UIColor.flatNavyBlueColorDark()
@@ -39,7 +39,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         button.layer.borderWidth = 1.0
         button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         button.layer.cornerRadius = cornerRadius
-        tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
+        //tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
         view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         //figure out???
