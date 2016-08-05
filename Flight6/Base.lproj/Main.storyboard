@@ -380,6 +380,7 @@
                     <navigationItem key="navigationItem" id="GvC-gJ-cIh"/>
                     <connections>
                         <outlet property="backHome" destination="NRw-BG-j9b" id="YE9-Na-DDO"/>
+                        <outlet property="descriptionLabel" destination="PNn-AJ-lcI" id="SDq-Lw-CRJ"/>
                         <outlet property="mainLabel" destination="XCc-9Y-N1a" id="Bys-A3-cg2"/>
                         <outlet property="nextUp" destination="jk1-d7-tWM" id="Sg0-6j-FEh"/>
                         <outlet property="pauseButton" destination="fIB-Ah-gEl" id="flR-Uf-OUV"/>
@@ -507,6 +508,6 @@
         <image name="noun_70964_cc.png" width="77" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OcJ-sb-fcp"/>
+        <segue reference="aoQ-ct-G8n"/>
     </inferredMetricsTieBreakers>
 </document>
