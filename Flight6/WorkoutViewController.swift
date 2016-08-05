@@ -102,6 +102,7 @@ class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
         let wk = workouts2[index]
         
         mainLabel.text = wk.title
+        descriptionLabel.text = wk.workoutText
         self.view.backgroundColor = wk.color
         self.navigationController?.navigationItem.title = wk.title
         
