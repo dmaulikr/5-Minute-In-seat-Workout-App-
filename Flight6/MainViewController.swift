@@ -39,11 +39,12 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         button.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
         button.layer.cornerRadius = cornerRadius
         //tableView.rowHeight = heightOfVisibleTableViewArea / CGFloat(numberOfRows)
-        view.backgroundColor = UIColor.flatNavyBlueColorDark()
+        //view.backgroundColor = UIColor.flatNavyBlueColorDark()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         //figure out???
         setTableViewBackgroundGradient(firstColor:startColor, bottomColor:endColor)
         // Do any additional setup after loading the view, typically from a nib.
+        
         
         // Do any additional setup after loading the view.
     }
@@ -71,6 +72,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
         tableView.backgroundView = backgroundView
         view.addSubview(backgroundView)
+        
         
     }
     
