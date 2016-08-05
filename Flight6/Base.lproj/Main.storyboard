@@ -341,12 +341,6 @@
                                     <segue destination="1Hz-KP-xjB" kind="show" id="aoQ-ct-G8n"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNn-AJ-lcI">
-                                <rect key="frame" x="95" y="166" width="411" height="252"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-7z-Hk1" customClass="MZTimerLabel">
                                 <rect key="frame" x="243" y="458" width="115" height="75"/>
                                 <constraints>
@@ -357,21 +351,27 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNn-AJ-lcI">
+                                <rect key="frame" x="95" y="166" width="411" height="271"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="centerX" secondItem="jk1-d7-tWM" secondAttribute="centerX" id="84X-pL-VSI"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="92F-4L-idd"/>
                             <constraint firstItem="jk1-d7-tWM" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="ANg-aq-He7"/>
                             <constraint firstItem="xYd-Xc-NYi" firstAttribute="top" secondItem="jk1-d7-tWM" secondAttribute="bottom" id="Avo-qJ-vSZ"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" id="EDT-yj-xqY"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="xYd-Xc-NYi" secondAttribute="centerX" id="Og9-oV-p63"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="leading" secondItem="NRw-BG-j9b" secondAttribute="leading" id="Tbc-rx-gyn"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="top" secondItem="xYd-Xc-NYi" secondAttribute="bottom" id="Xvt-ZP-8ZO"/>
+                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="top" secondItem="PNn-AJ-lcI" secondAttribute="bottom" constant="21" id="VVU-hn-fUy"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="centerX" secondItem="JBk-7z-Hk1" secondAttribute="centerX" id="W16-29-HDS"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" constant="75" id="ajD-bB-Khv"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="top" secondItem="Cvp-KN-Dit" secondAttribute="bottom" id="b6V-vu-ueE"/>
-                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="centerX" secondItem="PNn-AJ-lcI" secondAttribute="centerX" id="bKw-Jn-9uX"/>
-                            <constraint firstItem="JBk-7z-Hk1" firstAttribute="top" secondItem="PNn-AJ-lcI" secondAttribute="bottom" constant="40" id="cFk-W7-Tbo"/>
                             <constraint firstItem="NRw-BG-j9b" firstAttribute="baseline" secondItem="fIB-Ah-gEl" secondAttribute="baseline" id="h9F-En-Vfm"/>
-                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="leading" secondItem="F3P-v6-CiJ" secondAttribute="leadingMargin" constant="75" id="jci-li-Cvk"/>
+                            <constraint firstItem="PNn-AJ-lcI" firstAttribute="top" secondItem="xYd-Xc-NYi" secondAttribute="bottom" id="r7e-2P-bBK"/>
                             <constraint firstItem="jk1-d7-tWM" firstAttribute="top" secondItem="XCc-9Y-N1a" secondAttribute="bottom" constant="1" id="rTG-vI-APc"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="trailing" secondItem="fIB-Ah-gEl" secondAttribute="trailing" id="sK4-AW-Fjp"/>
                             <constraint firstItem="XCc-9Y-N1a" firstAttribute="trailing" secondItem="F3P-v6-CiJ" secondAttribute="trailingMargin" id="sin-L4-QRF"/>
