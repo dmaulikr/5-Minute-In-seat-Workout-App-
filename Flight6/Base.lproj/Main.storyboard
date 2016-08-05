@@ -84,12 +84,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
-                                <rect key="frame" x="51" y="123" width="499" height="394"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uj-gC-l9G">
                                 <rect key="frame" x="183" y="535" width="234" height="45"/>
                                 <constraints>
@@ -106,6 +100,12 @@
                                     <segue destination="1Hz-KP-xjB" kind="show" id="XUg-XD-uIo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
+                                <rect key="frame" x="51" y="123" width="499" height="394"/>
+                                <mutableString key="text">Too lazy to devote a good chunk of time to getting up, exercising, showering and repeating the same routine everyday? Don’t worry, I gotchu. This app is designed to make you feel fit and get your metabolism going without you having to get out of your seat. Whether you’re on a flight, in your office or living room couch, 5 minutes is all you need to tone your muscles and increase blood circulation. You’re welcome! ;)</mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
