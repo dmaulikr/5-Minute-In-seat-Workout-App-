@@ -102,7 +102,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIV-8w-1gj">
                                 <rect key="frame" x="51" y="123" width="499" height="394"/>
-                                <mutableString key="text">Too lazy to devote a good chunk of time to getting up, exercising, showering and repeating the same routine everyday? Don’t worry, I gotchu. This app is designed to make you feel fit and get your metabolism going without you having to get out of your seat. Whether you’re on a flight, in your office or living room couch, 5 minutes in a chair is all you need to tone your muscles and increase blood circulation. You’re welcome! ;)</mutableString>
+                                <string key="text">Too lazy to devote a good chunk of time to getting up, exercising, showering and repeating the same routine everyday? Don’t worry, I gotchu. This app is designed to make you feel fit and get your metabolism going without you having to get out of your seat. Whether you’re on a flight, in your office or living room couch, 5 minutes in a chair is all you need to tone your muscles and increase blood circulation. You’re welcome! ;)</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -294,7 +294,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Ready " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCc-9Y-N1a">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Ready! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCc-9Y-N1a">
                                 <rect key="frame" x="20" y="64" width="560" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="Wvi-gD-sKj"/>
