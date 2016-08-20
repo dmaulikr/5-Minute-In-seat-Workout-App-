@@ -18,19 +18,30 @@ class DetailViewController: UIViewController {
     let cornerRadius : CGFloat = 5.0
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
         //set background color and text
         self.view.backgroundColor = workout.color
+        
         self.detailText.text = workout.workoutText
+        
         self.title = workout.title
+        
         //set navbar text color
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
         //set background color and style of "back to home" button
         backHome.backgroundColor = UIColor.clearColor()
+        
         backHome.layer.borderWidth = 1.0
+        
         backHome.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).CGColor
+        
         backHome.layer.cornerRadius = cornerRadius
+        
         self.viewWillAppear(true)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
